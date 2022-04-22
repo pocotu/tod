@@ -1,0 +1,7 @@
+{
+  "python.linting.pylintArgs": [
+    "--extension-pkg-whitelist=pygame"
+  ],
+  "python.formatting.provider": "black",
+  "python.pythonPath": "C:\\Users\\rss\\anaconda3\\python.exe"
+}

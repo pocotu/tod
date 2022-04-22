@@ -1,0 +1,5 @@
+a = float(input("Ingresa un valor para 'a': "))
+b = float(input("Ingresa un valor para 'b': "))
+c = float(input("Ingresa un valor para 'c': "))
+ecuacion = (((c + 5)*(b**2-3*a*c)*a**2)/(4*a))
+print(f"el resultado de la ecuacion es: {ecuacion}")
