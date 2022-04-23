@@ -6,7 +6,7 @@ from time import time
 
 
 # ruta de la carpeta donde se encuentran las imagenes
-data_ruta = 'D:\Algo\Win\AllProy\Python\Py para no mate\Recocimiento facial\data'
+data_ruta = (r'D:\Algo\Win\tod\Python\Py para no mate\Recocimiento facial\Data')
 # listar todos los archivos de la carpeta
 lista_data = os.listdir(data_ruta)
 # imprimir la lista de carpetas
@@ -46,6 +46,6 @@ tiempo_final_entrenamiento = time()
 tiempo_total_entrenamiento = tiempo_final_entrenamiento - tiempo_final_lectura
 print('tiempo entrenamiento total:', tiempo_total_entrenamiento)
 # guardar el modelo entrenado
-entrenamientoEigenFaceRecognizer.write('D:\Algo\Win\AllProy\Python\Py para no mate\Recocimiento facial\Data\entrenamientoEigenFaceRecognizer.xml')
+entrenamientoEigenFaceRecognizer.write('D:\Algo\Entrenamientos\entrenamientoEigenFaceRecognizer.xml')
 print('entrenamiento finalizado')
 

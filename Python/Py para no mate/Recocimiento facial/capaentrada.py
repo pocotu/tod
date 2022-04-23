@@ -4,9 +4,9 @@ import os
 #import imutils
 
 # crear una carpeta para guardar las imagenes
-modelo = 'FotosElon'
+modelo = 'FotosRoss'
 # ruta de la carpeta donde se encuentran las imagenes
-ruta1 = 'D:/Algo/Win/AllProy/Python/Py para no mate/Recocimiento facial'
+ruta1 = (r'D:/Algo/Win/tod/Python/Py para no mate/Recocimiento facial/Data')
 # concatenar la carpeta con el nombre del modelo para crear la carpeta
 ruta_completa = ruta1 + '/' + modelo
 
@@ -15,12 +15,12 @@ if not os.path.exists(ruta_completa):
     os.mkdir(ruta_completa)
 
 # abriendo la camara de video
-camara = cv.VideoCapture(r'D:\Algo\Win\AllProy\Python\Py para no mate\Recocimiento facial\ElonMus.mp4')
+camara = cv.VideoCapture(0)
 # importando todos los ruidos
-ruido = cv.CascadeClassifier('D:\Algo\Win\AllProy\Python\Py para no mate\Recocimiento facial\haarcascade_frontalface_default.xml')
+ruido = cv.CascadeClassifier(r'D:\Algo\Win\tod\Python\Py para no mate\Recocimiento facial\haarcascade_frontalface_default.xml')
 
 # creando un contador para el nombre de las imagenes
-id = 1
+id = 0
 # si la camara esta abierta
 while True:
     # leemos un frame
@@ -50,7 +50,7 @@ while True:
     # mostrar la imagen
     cv.imshow('Resultado de rostro', captura)
     # detener la ejecucion del programa cuando toma 350 imagenes
-    if id == 301:
+    if id == 501:
         break
 # cerrar la camara
 camara.release()
