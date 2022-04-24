@@ -12,7 +12,7 @@ entrenamientoEigenFAceRecognizer.read(r'D:\Algo\Entrenamientos\entrenamientoEige
 # importando ruidos
 ruidos = cv.CascadeClassifier(r'D:\Algo\Win\tod\Python\Py para no mate\Recocimiento facial\haarcascade_frontalface_default.xml')
 # iniciando la camara
-camara = cv.VideoCapture(r'D:\Algo\Win\tod\Python\Py para no mate\Recocimiento facial\Auron.mp4')
+camara = cv.VideoCapture(0)
 
 while True:
     # capturando el video frame por frame

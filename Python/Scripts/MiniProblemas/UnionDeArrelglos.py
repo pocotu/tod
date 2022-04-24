@@ -1,5 +1,5 @@
-A = srt(input('Ingrese un arreglo'))
-B = srt(input('Ingrese otro arreglo'))
+A = str(input('Ingrese un arreglo'))
+B = str(input('Ingrese otro arreglo'))
 def UNION(A,B): 
     todo=A+B    
     union=[]    
