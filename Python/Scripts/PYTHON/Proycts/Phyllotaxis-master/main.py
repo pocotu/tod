@@ -3,6 +3,7 @@ import os
 import colorsys
 from math import sqrt, cos, sin
 
+# 
 os.environ["SDL_VIDEO_CENTERED"]='1'
 
 width, height = 1920, 1080
