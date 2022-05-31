@@ -14,26 +14,3 @@ def sumar_lista():
 
 print(sumar_lista())
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-if __name__ == "__main__":
-    pass
