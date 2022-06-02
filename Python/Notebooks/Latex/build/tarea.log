@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.31)  31 MAY 2022 00:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.31)  1 JUN 2022 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -245,13 +245,13 @@ LaTeX Info: Redefining \% on input line 8.
 Here is how much of TeX's memory you used:
  4451 strings out of 478582
  69386 string characters out of 2844344
- 374294 words of memory out of 3000000
+ 374303 words of memory out of 3000000
  22601 multiletter control sequences out of 15000+600000
  477109 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,62p,281b,363s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/rossb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rossb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rossb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/rossb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on d:\Algo\Win\tod\Python\Notebooks\Latex\build\tarea.pdf (1 page, 42657 bytes).
+Output written on d:\Algo\Win\tod\Python\Notebooks\Latex\build\tarea.pdf (1 page, 43515 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

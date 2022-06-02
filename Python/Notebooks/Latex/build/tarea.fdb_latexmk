@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1653975479 "d:/Algo/Win/tod/Python/Notebooks/Latex/tarea.tex" "build/tarea.pdf" "tarea" 1653975480
+["pdflatex"] 1654130833 "d:/Algo/Win/tod/Python/Notebooks/Latex/tarea.tex" "build/tarea.pdf" "tarea" 1654130834
   "C:/Users/rossb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1653975215 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/rossb/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1653975205 10246961 5860594c20b37708510a5cffba4bfed2 ""
   "C:/Users/rossb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -55,9 +55,9 @@
   "C:/Users/rossb/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1639593011 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "C:/Users/rossb/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1639593011 4009 187ea2dc3194cd5a76cd99a8d7a6c4d0 ""
   "C:/Users/rossb/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644215060 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
-  "build/tarea.aux" 1653975480 194 72658fb03bfd53fc103956ba2036b889 "pdflatex"
-  "d:/Algo/Win/tod/Python/Notebooks/Latex/tarea.tex" 1653975478 460 c493a75293797cfbf43f5a786feb6564 ""
-  "tarea.tex" 1653975478 460 c493a75293797cfbf43f5a786feb6564 ""
+  "build/tarea.aux" 1654130834 194 72658fb03bfd53fc103956ba2036b889 "pdflatex"
+  "d:/Algo/Win/tod/Python/Notebooks/Latex/tarea.tex" 1654130833 469 30c8bef257a3619b166fe9f5a6f00ca7 ""
+  "tarea.tex" 1654130833 469 30c8bef257a3619b166fe9f5a6f00ca7 ""
   (generated)
   "build/tarea.aux"
   "build/tarea.log"

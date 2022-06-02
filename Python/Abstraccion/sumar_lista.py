@@ -12,5 +12,5 @@ def sumar_lista():
         suma += i
     return suma
 
-print(sumar_lista())
+#print(sumar_lista())
 

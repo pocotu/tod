@@ -18,3 +18,5 @@ def funcion_principal(suma, lista):
     for i in lista:
         resultado.append(i)
     return resultado
+
+print(funcion_principal(suma, lista))
