@@ -13,6 +13,12 @@ Resultado: []
 from sumar_lista import *
 lista = [1,2,3,4,5]
 
+def sumar_lista():
+    suma = 0
+    for i in lista:
+        suma += i
+    return suma
+
 def funcion_principal(suma, lista):
     resultado = []
     for i in lista:
@@ -20,3 +26,7 @@ def funcion_principal(suma, lista):
     return resultado
 
 print(funcion_principal(suma, lista))
+
+
+
+
