@@ -7,7 +7,7 @@ def CopaArbol(espacios, asteriscos):
         # Suma 1 al espacio y resta 1 al asterisco en cada llamada
         CopaArbol(espacios+1, asteriscos-1)
         # 
-        #Mostrar(espacios, 2*asteriscos-1)
+        Mostrar(espacios, 2*asteriscos-1)
 
 def Tronco(espacios, n):
     if n > 0:
@@ -21,3 +21,4 @@ def Base(n):
 CopaArbol(0, 5)
 Tronco(3, 3)
 Base(10)
+
