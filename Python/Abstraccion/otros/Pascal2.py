@@ -4,12 +4,13 @@ def ValidarNumero(n):
     if 0 < n < 20:
         return crearTriangulo(n)
     else:
-        return ValidarNumero(int(input("Ingrese un número entre 1 y 20: ")))
+        return ValidarTexto(input("Ingrese un número entre 1 y 200: "))
 
-def ValidarTexto(texto):
-    if n.isdigit() != True:
-        n = input("Ingrese un número entero: ")
-        return ValidarTexto(n)
+def ValidarTexto(n):
+    if n.isdigit():
+        return ValidarNumero(int(n))
+    else:
+        return ValidarTexto(input("Ingrese un númerooo: "))
 
 def factorial(num):
     if num > 0:
@@ -20,6 +21,13 @@ def factorial(num):
 
 def combinatoria(num1, num2):
     return int(factorial(num1) / (factorial(num2)*factorial(num1-num2)))
+
+#def crearTriangulo(n):
+#    # Creando el triangulo de Pascal con recursividad
+#    if n == 1:
+#        return 1
+#    else:
+#        return combinatoria(n, 1) + crearTriangulo(n-1)
 
 def crearTriangulo(n_filas):
     for fila in range(n_filas):
@@ -33,8 +41,9 @@ def crearTriangulo(n_filas):
                 print(combinatoria(fila+1, j), end=" ")
             print()
 
-n = int(input("Indica el número de filas que desee: "))
+n = input("Indica el número de filas que desee: ")
 ValidarTexto(n)
+#ValidarTexto(input("Ingrese un texto: "))
 
 
 
