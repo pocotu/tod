@@ -5,7 +5,7 @@ import numpy as np
 valorGauss = 3
 valorKernel = 3
 
-original = cv2.imread(r"./MonedasContorno/monedas.jpg")
+original = cv2.imread(r"D:/Algo/Win/tod/Python/Py para no mate/MonedasContorno/monedas.jpg")
 gris = cv2.cvtColor(original, cv2.COLOR_BGR2GRAY)
 
 #eliminar ruido de imagen

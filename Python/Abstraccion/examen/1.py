@@ -8,53 +8,11 @@ que tengan más de 100 contagiados en los dos meses o que el número de contagia
 mes de junio sea 2 veces más que los del mes de mayo. Escribir un programa modular 
 que determine en cúantos distritos de una determinada provincia se debe implementar acciones de prevención.
 '''
-def MenuProvincias():
-    print("""
-    1. Acomayo
-    2. Anta
-    3. Calca
-    4. Canas
-    5. Canchis
-    6. Chumbivilcas
-    7. Cusco
-    8. Espinar
-    9. La Convención
-    10. Paruro
-    11. Paucartambo
-    12. Quispicanchi
-    13. Urubamba
-    """)
 
-def MenuDistritos():
-    print("""
-    1. Acomayo
-    2. Anta
-    3. Calca
-    4. Canas
-    5. Canchis
-    6. Chumbivilcas
-    7. Cusco
-    8. Espinar
-    9. La Convención
-    10. Paruro
-    11. Paucartambo
-    12. Quispicanchi
-    13. Urubamba
-    """)
+# Modulo para determinar si un distrito cumple condiciones para acciones de prevención
+def Prevencion(nroMes1, nroMes2):
+    # Si el nro de contagiados en el mes de mayo es mayor a 100 o el nro de 
+    # contagiados en el mes de junio es 2 veces mayor que los del mes de mayo
+    return (nroMes1 > 100) or (nroMes2 > nroMes1 * 2)
 
-def Provincias():
-    print("""
-    1. Acomayo
-    2. Anta
-    3. Calca
-    4. Canas
-    5. Canchis
-    6. Chumbivilcas
-    7. Cusco
-    8. Espinar
-    9. La Convención
-    10. Paruro
-    11. Paucartambo
-    12. Quispicanchi
-    13. Urubamba
-    """)
+deef 
