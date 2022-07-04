@@ -25,7 +25,7 @@ def funcion_principal(suma, lista):
         resultado.append(i)
     return resultado
 
-print(funcion_principal(suma, lista))
+print(funcion_principal(sumar_lista, lista))
 
 
 

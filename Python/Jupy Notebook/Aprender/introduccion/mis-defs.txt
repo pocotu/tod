@@ -1,0 +1,2 @@
+cpm = 60 * Bq
+Bq = Hz
