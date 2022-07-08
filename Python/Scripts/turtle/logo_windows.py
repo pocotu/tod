@@ -1,7 +1,7 @@
 import turtle
 
 t = turtle
-t.speed(1)
+t.speed(20)
 t.bgcolor("black")
 t.penup()
 t.goto(-50, 60)

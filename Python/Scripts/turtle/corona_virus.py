@@ -1,6 +1,6 @@
 from turtle import *
 
-speed(8)
+speed(50)
 color('yellow')
 bgcolor('black')
 i = 200
