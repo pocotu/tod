@@ -21,5 +21,5 @@ print(*[s[:i+3] for i in range(len(s)-2)], sep="\n")
 print(*[s[:-i-1] for i in range(len(s)-3)], sep="\n")
 '''
 
-x = 'Me gusta muchos lucerito'
+x = 'Hola Ruth Margot'
 print('\n'.join([x[:len(x)-abs(i-len(x)+1)]for i in range((len(x)-1)*2)]))
