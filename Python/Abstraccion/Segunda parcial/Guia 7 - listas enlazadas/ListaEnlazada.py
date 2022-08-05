@@ -1,13 +1,13 @@
 #Cramos un nodo
-class Node():
-    def __init__(self, data):
-        self.data = data
-        self.next = None
+class Node(): 
+    def __init__(self, data): # Constructor de la clase
+        self.data = data # Guardamos el dato
+        self.next = None # Inicializamos el siguiente nodo como None
 
 
-myNode = Node(10)
-print("El dato en el nodo es :", myNode.data)
-print("EL siguiente atributo en el nodo es:", myNode.next)
+myNode = Node(10) # Creamos un nodo con el dato 10
+print("El dato en el nodo es :", myNode.data) # Imprimimos el dato del nodo
+print("EL siguiente atributo en el nodo es:", myNode.next) # Imprimimos el siguiente nodo
 
 #Creamos una lista enlazada
 class LinkedList:
