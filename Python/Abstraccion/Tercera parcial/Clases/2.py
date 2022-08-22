@@ -6,7 +6,7 @@ por ejemplo:
 pero "[)", "({[)]" y "{{{" no son válidos.
 '''
 
-class ValidarParesentesis:
+class ValidarParentesis:
     # Constructor de la clase
     def Validar(self, cadena):
         # atributo de la clase que almacena la cadena
@@ -23,7 +23,7 @@ class ValidarParesentesis:
         # si la pila esta vacia imprime que es valido
         return len(pila) == 0
 
-Validar = ValidarParesentesis() # instanciamos
+Validar = ValidarParentesis() # instanciamos
 cadena = "()" #cadena a validar
 print(Validar.Validar(cadena)) 
 cadena = "()[]{}" #cadena a validar
@@ -31,7 +31,7 @@ print(Validar.Validar(cadena))
 cadena = "[)" #cadena a validar
 print(Validar.Validar(cadena)) 
 cadena = "({[)]" #cadena a validar
-print(Validar.Validar(cadena)) 
+print(Validar.Validar(cadena))
 
 #class ValidarCadena:
 #    def __init__(self, cadena):
