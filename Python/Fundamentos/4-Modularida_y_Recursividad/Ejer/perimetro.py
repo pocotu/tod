@@ -1,3 +1,0 @@
-'''
-Hacer un programa 
-'''
