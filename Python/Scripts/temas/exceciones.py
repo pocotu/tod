@@ -1,4 +1,4 @@
-def suma(a, b):
+def sumar(a, b):
     return a + b
 
 def resta(a, b):
@@ -14,7 +14,7 @@ def division(a, b):
         print()
         print('No se puede dividir entre 0')
         print()
-        menu()    
+        menu() 
 
 def menu():
     print("""
@@ -24,10 +24,11 @@ def menu():
     4. Division
     5. Salir
     """)
-    opcion = int(input("Introduce la opción: "))
+    opcion = input(input("Introduce la opción: "))
+
     while opcion != 5:
         if opcion == 1:
-            print(suma(a, b))
+            print(sumar(a, b))
             break
         elif opcion == 2:
             print(resta(a, b))
@@ -45,7 +46,6 @@ def menu():
             print("Opción incorrecta")
             print()
             opcion = int(input("Introduce la opción: "))
-
 
 a = int(input("Introduce el primer número: "))
 b = int(input("Introduce el segundo número: "))
