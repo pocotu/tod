@@ -178,38 +178,6 @@ def Registrar():
     objAsignatura = cAsignatura()
     objMatricula = cMatricula()
     # Validaciones
-    while True:
-        try:
-            # Escuela
-            print("\nRegistro de Escuela")
-            objEscuela.Leer()
-            # Alumno
-            print("\nRegistro de Alumno")
-            objAlumno.Leer()
-            # Asignatura
-            print("\nRegistro de Asignatura")
-            objAsignatura.Leer()
-            # Matricula
-            print("\nRegistro de Matricula")
-            objMatricula.Leer()
-            # Validaciones
-            if objEscuela.getCodEscuela() == "" or objEscuela.getNombre() == "" or objEscuela.getDireccion() == "" or objEscuela.getTelefono() == "":
-                print("\nNo se puede registrar una escuela sin datos")
-                continue
-            if objAlumno.getCodAlumno() == "" or objAlumno.getAP() == "" or objAlumno.getAM() == "" or objAlumno.getNombres() == "" or objAlumno.getCodEscuela() == "":
-                print("\nNo se puede registrar un alumno sin datos")
-                continue
-            if objAsignatura.getCodAsignatura() == "" or objAsignatura.getNombre() == "" or objAsignatura.getCategoria() == "" or objAsignatura.getCreditaje() == "":
-                print("\nNo se puede registrar una asignatura sin datos")
-                continue
-            if objMatricula.getCodAlumno() == "" or objMatricula.getCodAsignatura() == "" or objMatricula.getSemestre() == "" or objMatricula.getAnio() == "":
-                print("\nNo se puede registrar una matricula sin datos")
-                continue
-        
-    
-            # Agregar a arreglos
-            Escuela.append(objEscuela)
-            Alumno.append(objAlumno)
             
 
 
