@@ -14,26 +14,31 @@ Suma de divisores de 220: 1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 28
 
 # parejas de numeros amigos menores o iguales que n
 def parejas(n):
+    # recorre todos los numeros desde 1 hasta n
     for a in range(1, n + 1):
-        s = 0
+        x = 0
+        # recorre todos los numeros desde 1 hasta a
         for i in range(1, a):
+            # si a es divisible por i, entonces i es divisor de a
             if a % i == 0:
-                s += i
-
+                x += i
+        # recorre todos los numeros desde 1 hasta n
         for b in range(1, n + 1):
-            t = 0
+            y = 0
+            # recorre todos los numeros desde 1 hasta b
             for j in range(1, b):
+                # si b es divisible por j, entonces j es divisor de b
                 if b % j == 0:
-                    t += j
-
-            if a == t and b == s:
+                    y += j
+            # si a es igual a la suma de los divisores de b y b es igual a la suma de los divisores de a
+            if a == y and b == x:
                 print(a, b)
 
 
-# crear una funcion para encontrar numeros amigos
+def main():
+    n = int(input("Introduce un numero: "))
+    parejas(n)
 
-    
-n = int(input("Ingresa un numero: "))
-parejas(n)
+main()
 
 
