@@ -1,12 +1,12 @@
 
 def LeerNumeros():
-    print("---- Fraccion 1 ----")
+    print("####### Fraccion 1 #######")
     N1 = int(input("Introduce el numerador: "))
     D1 = int(input("Introduce el denominador: "))
     while D1 == 0:
         print("El denominador no puede ser 0")
         D1 = int(input("Introduce el denominador: "))
-    print("---- Fraccion 2 ----")
+    print("####### Fraccion 2 #######")
     N2 = int(input("Introduce el numerador: "))
     D2 = int(input("Introduce el denominador: "))
     while D2 == 0:

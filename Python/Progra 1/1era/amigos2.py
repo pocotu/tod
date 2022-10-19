@@ -34,7 +34,6 @@ def parejas(n):
             if a == y and b == x:
                 print(a, b)
 
-
 def main():
     n = int(input("Introduce un numero: "))
     parejas(n)
