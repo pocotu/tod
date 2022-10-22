@@ -13,6 +13,8 @@ def amigos (a,b):
 def amigos(a, b):
     suma_divisores_a = []
     suma_divisores_b = []
+    
+    ###### divisores de a ######
     for i in range(1, a):
         # si el resto de a/i es 0, entonces i es divisor de a
         if a % i == 0:
@@ -20,13 +22,15 @@ def amigos(a, b):
             suma_divisores_a.append(i)
     # lista con los divisores de a hasta a-1
     suma_a = suma_divisores_a[0:-1]
-
+    
     for m in suma_a:
         print(m, end=" + ")
     # imprime el ultimo elemento de la lista y agrega la suma de los divisores de a
     print(suma_divisores_a[-1], end = f" = {sum(suma_divisores_a)}")
     # imprime un salto de linea para separar los resultados
     print()
+    
+    ###### divisores de b ######
     for i in range(1, b):
         # si el resto de b/i es 0, entonces i es divisor de b
         if b % i == 0:
@@ -39,6 +43,7 @@ def amigos(a, b):
         print(n, end=" + ")
     # imprime el ultimo elemento de la lista y agrega la suma de los divisores de b
     print(suma_divisores_b[-1], end = f" = {sum(suma_divisores_b)}")
+    # imprime un salto de linea para separar los resultados
     print()
 
     ## si la suma de los divisores de a es igual a "b" y 
