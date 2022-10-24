@@ -22,5 +22,5 @@ def interes_c():
     for i in range(1, tiempo+1):
         monto = monto * (1 + interes / 100)
         i = i + 1
-    print("El monto total es: ", monto)
+    print("El monto total es: {:.2f}".format(monto))
 interes_c()
