@@ -1,8 +1,8 @@
 """
 Dos números son amigos, si cada uno de ellos es igual a la suma de los divisores del otro.
 Hacer una módulo que determine si dos números dados como parámetros son amigos o no. A
-continuación realizar un programa que muestre todas las parejas de números amigos menores
-o iguales que n, siendo n un número introducido por teclado. El programa debe usar la función
+continuacion realizar un programa que muestre todas las parejas de numeros amigos menores
+o iguales que n, siendo n un numero introducido por teclado. El programa debe usar la funcion
 amigo previamente definida. Por ejemplo:
 
 220 y 284 son amigos, ya que:
@@ -39,5 +39,4 @@ def amigos(a, b):
 def main():
     n = int(input("Introduce un numero: "))
     amigos_menores(n)
-
 main()

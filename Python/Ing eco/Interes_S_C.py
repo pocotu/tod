@@ -5,8 +5,9 @@ def interes_S_M(monto, interes, tiempo):
     monto_t = monto + interes_t
     return monto_t
 
-# Interes compuesto mensual
+# Interes compuesto anual
 def interes_C_M(monto, interes, tiempo):
+    interes = interes
     for i in range(1, tiempo+1):
         monto = monto * (1 + interes / 100)
         print("Monto total del {} mes: {:.2f}".format(i, monto))
@@ -21,7 +22,7 @@ def interes_S_A(monto, interes, tiempo):
     monto = monto + interes
     return monto
 
-# Interes compuesto anual
+# Interes compuesto mensual
 def interes_C_A(monto, interes, tiempo):
     interes_M = interes / 12
     for i in range(1, tiempo+1):
@@ -31,13 +32,14 @@ def interes_C_A(monto, interes, tiempo):
     print("")
     return monto
 
+
 def main():
     ## Menu ##
     print("")
-    print("1. Interes simple mensual")
-    print("2. Interes compuesto mensual")
+    print("1. Interes simple mensua")
+    print("2. Interes compuesto anual")
     print("3. Interes simple anual")
-    print("4. Interes compuesto anual")
+    print("4. Interes compuesto mensual")
     print("5. Salir")
     print("")
     opcion = int(input("Ingrese opcion: "))
@@ -81,9 +83,9 @@ def main():
         print("=====================================")
         print("")
         print("1. Interes simple mensual")
-        print("2. Interes compuesto mensual")
+        print("2. Interes compuesto anual")
         print("3. Interes simple anual")
-        print("4. Interes compuesto anual")
+        print("4. Interes compuesto mensual")
         print("5. Salir")
         print("")
         opcion = int(input("Ingrese opcion: "))
