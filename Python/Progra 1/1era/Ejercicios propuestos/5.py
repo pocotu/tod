@@ -8,7 +8,6 @@ ejemplo, los números 333, 3313, 4234132434 son números especiales.
 '''
 
 def numero_especial(n):
-    print("primero", type(n))
     # Convertimos el numero a string para poder iterar sobre sus digitos
     n = str(n)
     print("segundo", type(n))
