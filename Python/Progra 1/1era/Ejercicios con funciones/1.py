@@ -20,6 +20,6 @@ def imprimir(n):
 
 def main():
     n = int(input("Ingresa un numero: "))
-    Imprimir(n)
+    imprimir(n)
 
 main()
