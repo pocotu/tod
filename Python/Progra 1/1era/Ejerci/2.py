@@ -5,7 +5,6 @@ con las cifras de N, y la funcion Menor(N) que calcula el menor numero que se pu
 formar con las cifras de numero
 '''
 
-
 # Implementa la funcion Mayor(N), que calcula el mayor numero que se puede formar con las cifras de N
 def mayor(N):
     N = str(N)
