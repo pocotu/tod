@@ -5,6 +5,5 @@ con un maximo de 10 intentos
 
 import random
 
-def 
 
 

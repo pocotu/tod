@@ -55,3 +55,5 @@ ggplot(data = gapminderpt,
                      y = lifeExp)) +
   geom_point() +
   geom_smooth(method = 'lm')
+
+
