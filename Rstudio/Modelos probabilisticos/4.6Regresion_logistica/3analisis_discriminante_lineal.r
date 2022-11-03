@@ -18,3 +18,4 @@ lda.pred$posterior[1:20, 1]
 lda.class[1:20]
 
 sum(lda.pred$posterior[,1]>.9)
+
