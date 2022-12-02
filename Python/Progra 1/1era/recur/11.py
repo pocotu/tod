@@ -21,3 +21,4 @@ def main():
     print("la cadena invertida es: ", invertir2(cadena))
 
 main()
+
