@@ -9,9 +9,7 @@ def invertir_numero(numero):
         return "El numero debe ser positivo"
     numero_invertido = 0
     while numero > 0:
-        # multiplica por 10 para que el numero se desplace una posicion a la izquierda
         numero_invertido = numero_invertido * 10 + numero % 10
-        # divide por 10 para que el numero se desplace una posicion a la derecha
         numero = numero // 10
     return numero_invertido
 
