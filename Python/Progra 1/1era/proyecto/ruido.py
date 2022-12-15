@@ -19,3 +19,4 @@ def distancia_hamming(secuencia1, secuencia2):
 
 
 
+
