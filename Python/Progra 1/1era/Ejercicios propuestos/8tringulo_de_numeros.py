@@ -24,6 +24,7 @@ def imprimir_renglon(d):
 def main():
     d = int(input("Ingrese un numero: "))
     while d < 1 or d > 9:
+        print("El numero debe estar entre 1 y 9")
         d = int(input("Ingrese un numero: "))
     for i in range(1, d + 1):
         imprimir_renglon(i)
