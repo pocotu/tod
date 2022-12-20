@@ -1,3 +1,13 @@
+# Este es un archivo de configuración de GitHub Actions que se utiliza para automatizar el proceso de desarrollo de un paquete de Python. La configuración especifica que se ejecutarán diferentes tareas cada vez que se haga un push o un pull request a la rama principal (main) del repositorio.
+# 
+# Las tareas incluyen:
+# 
+# Instalar y configurar diferentes versiones de Python (3.8, 3.9 y 3.10) en el entorno de trabajo.
+# Instalar las dependencias del paquete de Python utilizando pip.
+# Ejecutar flake8 para verificar el código fuente del paquete en busca de errores de sintaxis y problemas de calidad del código.
+# Ejecutar pytest para realizar pruebas del paquete.
+# La configuración también incluye variables de entorno para almacenar credenciales secretas (OPENAI_EMAIL y OPENAI_PASSWORD) que se utilizarán durante las pruebas.
+
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 

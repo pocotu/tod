@@ -1,3 +1,11 @@
+# Eso es una plantilla de solicitud de características que se puede utilizar para sugerir una idea o mejora para un proyecto. La plantilla incluye una serie de secciones que proporcionan información detallada sobre la idea o mejora y cómo podría implementarse.
+# 
+# La sección "Is your feature request related to a problem?" proporciona una descripción clara y concisa del problema o frustración que se está experimentando. La sección "Describe the solution you'd like" proporciona una descripción clara y concisa de lo que se quiere que suceda. La sección "Describe alternatives you've considered" proporciona una descripción clara y concisa de las soluciones o características alternativas que se han considerado.
+# 
+# La sección "Additional context" proporciona cualquier otro contexto o capturas de pantalla relevantes sobre la solicitud de características.
+# 
+# Esta plantilla se puede utiliz
+
 name: Pylint
 
 on: [push]

@@ -1,3 +1,13 @@
+# Este es un archivo de configuración de GitHub Actions que se utiliza para automatizar el proceso de publicación de un paquete de Python en PyPI (Python Package Index). La configuración especifica que se ejecutarán diferentes tareas cada vez que se publique una nueva versión del paquete (release) en el repositorio.
+# 
+# Las tareas incluyen:
+# 
+# Instalar y configurar Python 3.x en el entorno de trabajo.
+# Instalar dependencias del paquete de Python utilizando pip.
+# Ejecutar el comando "build" para construir el paquete.
+# Utilizar una acción de GitHub llamada "gh-action-pypi-publish" para publicar el paquete en PyPI.
+# La configuración también incluye una variable de entorno secreta (PYPI_API_TOKEN) que se utilizará para autenticarse en PyPI durante la publicación del paquete.
+
 # This workflow will upload a Python Package using Twine when a release is created
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries
 

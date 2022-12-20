@@ -1,3 +1,11 @@
+# Hola! Esta es una capa de abstracción en Python para la API de chatbot de OpenAI. 
+# Permite usar la API de chatbot en un entorno de Python creando un objeto AsyncChatbot y 
+# llamando a su método send_message para enviar un mensaje al chatbot y recibir una respuesta. El objeto 
+# AsyncChatbot admite varios parámetros opcionales, incluyendo una bandera debug para habilitar la 
+# salida de depuración, un valor request_timeout para establecer el tiempo de espera de la solicitud de 
+# red y un objeto captcha_solver para manejar cualquier CAPTCHA que pueda encontrarse. El objeto 
+# AsyncChatbot también tiene un método rollback que permite retroceder la conversación a un estado anterior.
+
 # Author: @acheong08@fosstodon.org
 # License: MIT
 # Description: A Python wrapper for OpenAI's chatbot API
@@ -41,6 +49,11 @@ class Debugger:
         if self.debug:
             print(message, end=end)
 
+# El objeto AsyncChatbot se inicializa proporcionando una configuración en formato JSON y opcionalmente proporcionando un conversation_id y un parent_id. Estos dos últimos son identificadores únicos que se utilizan para llevar a cabo una conversación y mantener el contexto a lo largo de la misma. Si no se proporciona un conversation_id, se generará uno aleatoriamente. Si no se proporciona un parent_id, se utilizará un UUID generado aleatoriamente como parent_id. Además, se puede proporcionar una bandera debug para habilitar la salida de depuración y un valor request_timeout para establecer el tiempo de espera de la solicitud de red.
+# 
+# Para enviar un mensaje al chatbot y recibir una respuesta, se puede llamar al método send_message del objeto AsyncChatbot y proporcionar el mensaje como una cadena de texto. Este método devolverá una respuesta del chatbot en forma de una cadena de texto también.
+# 
+# El objeto AsyncChatbot también tiene un método rollback que permite retroceder la conversación a un estado anterior. Para hacer esto, se proporciona el número de pasos que se desean retroceder como un argumento entero. Si se proporciona un valor mayor que el número de pasos disponibles para retroceder, se retrocederá el máximo número de pasos disponibles.
 
 class AsyncChatbot:
     """

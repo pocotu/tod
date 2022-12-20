@@ -1,3 +1,11 @@
+# Este es un código en Python que define varias clases y funciones relacionadas con el uso de un chatbot basado en el modelo GPT-3 de OpenAI.
+# 
+# La clase "CaptchaSolver" define un método estático "solve_captcha" que se encarga de resolver un captcha (un test de seguridad que se utiliza para verificar que un usuario es humano) dado en formato SVG. El método toma una cadena de texto que representa el captcha en formato SVG y devuelve la solución del captcha como una cadena de texto.
+# 
+# La función "get_input" se encarga de solicitar al usuario que ingrese una cadena de texto y devuelve la cadena de texto ingresada.
+# 
+# La función "configure" se encarga de cargar un archivo de configuración y ejecutar el chatbot. Primero, busca el archivo de configuración en varias ubicaciones y carga el primero que encuentra. Luego, ver
+
 import json
 import textwrap
 from os.path import exists

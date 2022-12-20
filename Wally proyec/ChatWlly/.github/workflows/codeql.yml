@@ -1,3 +1,20 @@
+# Eso es un archivo de configuración de flujo de trabajo de GitHub Actions. 
+# GitHub Actions es una herramienta de integración continua y entrega continua 
+# (CI/CD) que se puede utilizar para automatizar tareas y flujos de trabajo 
+# en un repositorio de GitHub. El archivo de configuración especifica un flujo 
+# de trabajo que se ejecutará cuando se publique una release (lanzamiento) en el 
+# repositorio o según un horario programado. En este caso, el flujo de trabajo incluye 
+# una tarea denominada "CodeQL-Build" que se ejecutará en una máquina virtual Ubuntu y 
+# que tiene permisos para escribir eventos de seguridad. La tarea "CodeQL-Build" consta 
+# de varios pasos, cada uno de los cuales es una acción de GitHub Actions. El primer paso 
+# es "Checkout repository", que se encarga de hacer una copia del repositorio en la máquina 
+# virtual donde se está ejecutando el flujo de trabajo. El segundo paso es "Initialize CodeQL", 
+# que se encarga de inicializar las herramientas de análisis de código CodeQL para el idioma 
+# Python. El último paso es "Perform CodeQL Analysis", que se encarga de realizar el análisis 
+# del código utilizando CodeQL. En resumen, este flujo de trabajo se encarga de hacer una 
+# copia del repositorio, inicializar las herramientas de análisis de código CodeQL y realizar 
+# el análisis del código utilizando CodeQL cuando se publique una release en el 
+# repositorio o según un horario programado.
 
 name: "Code Scanning - Action"
 
