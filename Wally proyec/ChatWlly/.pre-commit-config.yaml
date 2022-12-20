@@ -1,3 +1,11 @@
+# Este código es una lista de repositorios y ganchos de pre-commit. Pre-commit es una herramienta que se ejecuta automáticamente antes de hacer un commit en Git. Estos ganchos pueden ser utilizados para realizar diversas tareas de revisión de código, tales como detectar errores de sintaxis o buscar código poco legible.
+# 
+# Cada repositorio en la lista se refiere a un conjunto de ganchos que pueden ser utilizados para realizar tareas de revisión de código. Por ejemplo, el repositorio "pre-commit/pre-commit-hooks" incluye ganchos para detectar espacios en blanco al final de las líneas, corregir problemas de formato de archivos y buscar declaraciones de depuración en el código.
+# 
+# Los ganchos de cada repositorio tienen una ID única y, en algunos casos, pueden tener argumentos adicionales para controlar su comportamiento. Por ejemplo, el gancho "autopep8" del repositorio "pre-commit/mirrors-autopep8" tiene argumentos para habilitar la eliminación agresiva de espacios en blanco y mostrar mensajes de depuración durante su ejecución.
+# 
+# Esta lista de repositorios y ganchos de pre-commit se utiliza para configurar Pre-commit para realizar diversas tareas de revisión de código en un proyecto de software.
+
 
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks

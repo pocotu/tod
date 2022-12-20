@@ -1,3 +1,7 @@
+# Este es un archivo de configuración de setup.py que se utiliza para crear un paquete Python y distribuirlo. La función setup toma varios argumentos que proporcionan información sobre el paquete, como el nombre, la versión, la licencia, el autor, la descripción y las dependencias. También especifica el directorio donde se encuentran los archivos del paquete y los módulos Python que se incluirán en el paquete. Además, se especifica una lista de "puntos de entrada" para scripts que se pueden ejecutar desde la línea de comandos.
+# 
+# Cuando se ejecuta python setup.py sdist, se crea un archivo de distribución del paquete en formato gzip tar. Este archivo puede instalarse con pip install para hacer que el paquete esté disponible para su uso en otros proyectos Python.
+
 from setuptools import find_packages
 from setuptools import setup
 

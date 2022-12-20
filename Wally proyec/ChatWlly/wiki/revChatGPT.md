@@ -1,3 +1,22 @@
+# Este código es la documentación del módulo revChatGPT, que es parte de la biblioteca ChatGPT. La documentación proporciona 
+# información detallada sobre las clases, métodos y funciones disponibles en el módulo revChatGPT y cómo utilizarlos.
+# 
+# El módulo revChatGPT proporciona una clase principal llamada Chatbot, que permite interactuar con un chatbot utilizando OpenAI's 
+# ChatGPT. La clase Chatbot tiene una serie de métodos disponibles para enviar mensajes al chatbot y obtener respuestas, reiniciar 
+# la conversación, retroceder la conversación, actualizar la sesión de autenticación del chatbot y obtener la configuración actual 
+# del chatbot.
+# 
+# El módulo también proporciona una clase secundaria llamada AsyncChatbot, que es una versión asincrónica de la clase Chatbot. La 
+# clase AsyncChatbot tiene la mayoría de los mismos métodos que la clase Chatbot, pero son implementados de manera asincrónica y 
+# utilizan el módulo "aiohttp" para realizar solicitudes de red de manera asincrónica.
+# 
+# La documentación también incluye información sobre una clase de utilidad llamada CaptchaSolver, que se utiliza para resolver 
+# captcha utilizados por el chatbot de OpenAI. La clase CaptchaSolver tiene un único método estático llamado solve_captcha, que toma 
+# una cadena SVG raw como entrada y devuelve la solución del captcha como una cadena.
+# 
+# La documentación también incluye información sobre las excepciones que pueden ser lanzadas por el módulo revChatGPT y cómo 
+# manejarlas.
+
 <a id="revChatGPT"></a>
 
 # revChatGPT

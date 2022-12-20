@@ -1,3 +1,18 @@
+# Este código es una guía de configuración para el módulo revChatGPT, que es parte de la biblioteca ChatGPT. La guía describe cómo 
+# instalar y configurar el módulo revChatGPT para interactuar con un chatbot utilizando OpenAI's ChatGPT.
+# 
+# Para instalar el módulo revChatGPT, se debe ejecutar el comando pip3 install --upgrade revChatGPT. Además, se deben instalar las 
+# dependencias del módulo ejecutando el comando python3 -m playwright install después de instalar el módulo.
+# 
+# Para utilizar el módulo revChatGPT en entornos de escritorio, se debe iniciar sesión en OpenAI a través de una ventana del 
+# navegador y esperar a que la ventana se cierre automáticamente.
+# 
+# Para utilizar el módulo revChatGPT en servidores, se debe proporcionar un token de sesión en el archivo de configuración. El token 
+# de sesión se puede obtener manualmente a través del navegador o utilizando Xvfb para emular un entorno de escritorio.
+# 
+# La guía también proporciona un ejemplo de archivo de configuración con opciones adicionales para configurar un proxy y un idioma 
+# de aceptación.
+
 # Setup
 `pip3 install --upgrade revChatGPT`
 
