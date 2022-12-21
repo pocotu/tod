@@ -27,5 +27,5 @@ azadine.forward(200)
 azadine.setheading(-210)
 azadine.setheading(390)
 azadine.forward(600)
-
+turtle.done()
 
