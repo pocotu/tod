@@ -1,7 +1,10 @@
 import turtle
 
+# nombre de la tortuga
 azadine = turtle.Turtle()
+# nombre de la ventana
 badis = turtle.Screen()
+# color de la ventana
 badis.bgcolor('white')
 badis.title("Lucerito")
 azadine.speed(3)
@@ -24,4 +27,5 @@ azadine.forward(200)
 azadine.setheading(-210)
 azadine.setheading(390)
 azadine.forward(600)
-turtle.done()
+
+
