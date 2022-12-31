@@ -6,4 +6,4 @@ def triangulo(n):
 
 triangulo(5)
 
-
+# comentario
