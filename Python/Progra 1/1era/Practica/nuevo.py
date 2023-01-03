@@ -13,12 +13,10 @@ triangulo(5)
 # Path: Python\Progra 1\1era\Practica\nuevo.py
 
 def triangulo(n):
+
     for i in range(1,n+1):
+
         print("*"*i)
 
-def main():
-    n = int(input("Ingrese el numero de filas: "))
+triangulo(5)
 
-    triangulo(n)
-
-main()
