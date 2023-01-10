@@ -38,4 +38,4 @@ console.log({ nombre: 'Pedro', edad: 25, fechaDeNacimiento: null, casado: false,
 // tipo de dato de tipo lista - array
 console.log(['Peru', 'Chile', 'Colombia']);
 
-console.log([21 ,true { nombre: 'Pedro'}, [1, 2, 3]]);
+console.log([21 ,true, { nombre: 'Pedro'}, [1, 2, 3]]);

@@ -14,7 +14,7 @@ def imprimir(n):
     for i in range(1, n+1):
         for j in range(1, i+1):
             # imprime todos los numeros de 1 a i en la misma linea
-            print(j, end=" ")
+            print(j, end=)
         # imprime un salto de linea despues de terminar de imprimir todos los numeros de 1 a i
         print()
 
