@@ -65,3 +65,4 @@ console.log(PI);
 var nombre = 'Pedro';
 var saludo2 = `Hola ${nombre}`; // template string
 console.log(saludo);
+console.log(saludo2);
