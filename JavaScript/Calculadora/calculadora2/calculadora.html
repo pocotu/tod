@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de anualidades</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <form id="miFormulario" name="">
+        <label>Numero 1:</label>
+        <input type="number" name="" id="Valor1" autofocus placeholder="Escribe un numero">
+        <button onclick="limpiar();">Limpiar campos</button>
+        <br>
+        <br>
+        <label>Numero 2:</label>
+        <input type="number" name="" id="valor2" placeholder="Escribe un numero">
+        <br>
+        <br>
+        <button type="button" onclick="Sumar();">Sumar</button>
+        <button type="button" onclick="Restar();">Restar</button>
+        <button type="button" onclick="Multiplicar();">Multiplicar</button>
+        <button type="button" onclick="Dividir();">Dividir</button>
+
+        <p>El resultado es: <span id="el-resultado"></span></p>
+
+    </form>
+
+    <script type="text/javascript" src="js/funciones.js">
+    </script>
+</body>
+</html>

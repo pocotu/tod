@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de Préstamos</title>
+    <style>
+      #calculadora {
+        margin: 0 auto; 
+        width: 50%; 
+        text-align: center;
+      }
+    </style>
+  </head>
+  
+<body>
+  <h1>Calculadora de Préstamos</h1>
+  <form id="calculadora">
+    Monto del Préstamo: <input type="text" id="monto-prestamo"><br>
+    Tasa de Interés (%): <input type="text" id="tasa-interes"><br>
+    Período del Préstamo (años): <input type="text" id="periodo-prestamo"><br>
+    <button type="button" onclick="calcular()">Calcular</button>
+  </form>
+
+  <br>
+  <p>Pago Mensual: <span id="pago-mensual"></span></p>
+  <p>Interes Total: <span id="interes-total"></span></p>
+  <script>
+    function calcular() {
+      // Obtener valores de entrada
+      var montoPrestamo = document.getElementById("monto-prestamo").value;
+      var tasaInteres = document.getElementById("tasa-interes").value / 100 / 12;
+      var periodoPrestamo = document.getElementById("periodo-prestamo").value * 12;
+      
+      // Calcular el pago mensual
+      var x = Math.pow(1 + tasaInteres, periodoPrestamo);
+      var mensual = montoPrestamo * x * tasaInteres / (x-1);
+      
+      // Calcular el interés total
+      var interesTotal = (mensual * periodoPrestamo) - montoPrestamo;
+      
+      // Mostrar resultados
+      document.getElementById("pago-mensual").innerHTML = mensual.toFixed(2);
+      document.getElementById("interes-total").innerHTML = interesTotal.toFixed(2);
+    }
+  </script>
+</body>
+</html>
