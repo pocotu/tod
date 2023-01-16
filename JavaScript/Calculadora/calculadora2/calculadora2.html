@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de anualidades</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <form id="miFormulario" name="">
+        <div style="display: flex; flex-direction: column; width: 80%; max-width: 600px;">
+            <label>Numero 1:</label>
+            <input type="number" name="" id="Valor1" autofocus placeholder="Escribe un numero">
+            <br>
+            <br>
+            <label>Numero 2:</label>
+            <input type="number" name="" id="valor2" placeholder="Escribe un numero">
+            <br>
+            <br>
+            <label>Selecciona una opción de anualidades:</label>
+            <select id="opcionesAnualidades">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select>
+            <button type="button" onclick="calcularAnualidades();">Calcular</button>
+            <label>Selecciona una opción de gradientes:</label>
+            <select id="opcionesGradientes">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select>
+            <button type="button" onclick="calcularGradientes();">Calcular</button>
+            <label>Selecciona una opcion de VAN:</label>
+            <select id="opcionesVAN">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+            </select>
+            <button type="button" onclick="calcularVAN();">Calcular</button>
+            <label>Selecciona una opcion de TIR:</label>
+            <select id="opcionesTIR">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+            </select>
+            <button type="button" onclick="calcularTIR();">Calcular</button>
+            <label>Selecciona una opcion de Payback:</label>
+            <select id="opcionesPayback">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+            </select>
+            <button type="button" onclick="calcularPayback();">Calcular</button>
+            <label>Selecciona una opcion de Punto de equilibrio:</label>
+            <select id="opcionesPunto_equilibrio">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+            </select>
+            <button type="button" onclick="calcularPunto_equilibrio();">Calcular</button>
+            <br>
+            <p>El resultado es: <span id="el-resultado"></span></p>
+            </div>
+    </form>  
+    <script type="text/javascript" src="js/funciones.js">
+    </script>
+</body>
+</html>

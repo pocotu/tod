@@ -5,7 +5,10 @@ from TIR import Menu_TIR
 from Payback import Menu_payback
 from Punto_equilibrio import Menu_punto_equilibrio
 
+print("Bienvenido al programa de calculo financiero")
+print("hola")
 
+print("holax2")
 def main():
     while True:
         print("1. Anualidades")
