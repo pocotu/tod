@@ -3,9 +3,12 @@
  * 
  * 3 formas de defenir variables:
  * 
- * - var 
- * - let 
- * - const
+ * - var: se puede reasignar el valor de la variable y se puede usar fuera del bloque de codigo donde se definió
+ * 
+ * - let: se puede reasignar el valor de la variable pero solo dentro del bloque de codigo donde se definió
+ * 
+ * CONST: no se puede reasignar el valor de la variable, no podemos cambiar el valor de la variable
+ * por fuera de la funcion donde se definió
  */
 
 // variables con VAR

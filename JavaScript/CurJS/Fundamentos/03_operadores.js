@@ -67,7 +67,7 @@ var arreglo = [1, 2, 3, 4, 5, 6]
 console.log(arreglo[2]);
 console.log(arreglo[-1]); // no existe
 
-// operacion de determinacion de tipo
+// operacion de determinacion de tipo de dato
 console.log(typeof 'Bellido');
 console.log(typeof 2);
 console.log(typeof persona);

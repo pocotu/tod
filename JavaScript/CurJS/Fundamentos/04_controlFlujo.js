@@ -11,12 +11,10 @@ var llueve = true;
 if (llueve) {
     console.log("esta cayendo agua :v");
 }
-
 var administrador = 'administrador';
 if (administrador == 'administrador') {
-    console.log("Bienvenido administrador");
+    console.log('Bienvenido tardes administrador');
 }
-
 
 const MayorDeEdad = 18;
 var edad1 = 15;
@@ -42,4 +40,30 @@ if (edad1 >= MayorDeEdad || edad2 >= MayorDeEdad) { // || = or
     console.log("Ninguno es mayor de edad");
 }
 
+// semaforo
+var semaforo = 'azul';
+if (semaforo == 'verde') {
+    console.log('Continue');
+} else if (semaforo == 'amarillo') {
+    console.log('Listo?');
+} else if (semaforo == 'rojo') {
+    console.log('Detente');
+} else {
+    console.log('Color no valido');
+}
 
+// switch
+var producto = 'papaya';
+switch (producto) {
+    case 'papaya': // se ejecuta si la expresion es igual a la expresion
+        console.log('cuesta 1.50 soles');
+        break;
+    case 'naranja':
+        console.log('cuesta 1.00 soles');
+        break;
+    case 'mango':
+        console.log('cuesta 2.00 soles');
+        break;
+    default: // se ejecuta si no se cumple ninguna de las condiciones
+        console.log('Producto no encontrado');
+}
