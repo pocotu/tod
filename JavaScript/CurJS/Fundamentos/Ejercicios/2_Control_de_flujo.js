@@ -56,8 +56,36 @@ Si la compra supera los $50 el gasto de envío será gratuito
 
 El programa debe ser escrito dos veces, una con la declaración if else y otra con la declaración switch
 */
+var precio = 23;
 
-var precio = 7;
+if (precio <= 10) {
+    var gasto_envio = precio + 3;
+    console.log('El precio total mas envio es '+gasto_envio);
+} else if (10 <= precio < 20) {
+    var gasto_envio = precio + 5;
+    console.log('El precio total mas envio es '+gasto_envio);
+} else if (20 <= precio <= 50) {
+    var gasto_envio = precio + 7;
+    console.log("El precio total mas envio es"+gasto_envio);
+} else {
+    console.log('Precio incorrecto');
+}
 
+var precio = 23;
 
-
+switch (true) {
+    case precio <= 10:
+        var add_envio = precio + 3;
+        console.log('Precio total mas envio es '+add_envio+" dolares");
+        break;
+    case precio>10 && precio< 20:
+        var add_envio = precio + 5;
+        console.log('Precio total mas envio es '+add_envio+" dolares")
+        break;
+    case precio>=20 && precio <= 50:
+        var add_envio = precio + 7;
+        console.log('Precio total mas envio es '+add_envio+" dolares");
+        break;
+    default:
+        console.log("precio incorrecto");
+} 
