@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/bin/Debug/net7.0/4.factorial(no_recursivo)
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/bin/Debug/net7.0/4.factorial(no_recursivo).deps.json
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/bin/Debug/net7.0/4.factorial(no_recursivo).runtimeconfig.json
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/bin/Debug/net7.0/4.factorial(no_recursivo).dll
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/bin/Debug/net7.0/4.factorial(no_recursivo).pdb
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/4.factorial(no_recursivo).csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/4.factorial(no_recursivo).GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/4.factorial(no_recursivo).AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/4.factorial(no_recursivo).AssemblyInfo.cs
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/4.factorial(no_recursivo).csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/4.factorial(no_recursivo).dll
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/refint/4.factorial(no_recursivo).dll
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/4.factorial(no_recursivo).pdb
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/4.factorial(no_recursivo).genruntimeconfig.cache
+/home/wally/Documents/Code/tod/C#/progra2/4.factorial(no_recursivo)/obj/Debug/net7.0/ref/4.factorial(no_recursivo).dll

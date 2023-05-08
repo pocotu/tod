@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/bin/Debug/net7.0/5.invertir_texto
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/bin/Debug/net7.0/5.invertir_texto.deps.json
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/bin/Debug/net7.0/5.invertir_texto.runtimeconfig.json
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/bin/Debug/net7.0/5.invertir_texto.dll
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/bin/Debug/net7.0/5.invertir_texto.pdb
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/5.invertir_texto.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/5.invertir_texto.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/5.invertir_texto.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/5.invertir_texto.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/5.invertir_texto.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/5.invertir_texto.dll
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/refint/5.invertir_texto.dll
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/5.invertir_texto.pdb
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/5.invertir_texto.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/C#/progra2/5.invertir_texto/obj/Debug/net7.0/ref/5.invertir_texto.dll
