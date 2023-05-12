@@ -1,1 +1,1 @@
-﻿console.writeLine("Hola mundo!");
+﻿Console.WriteLine("Hola mundo!");
