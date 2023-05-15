@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/reloj.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/reloj.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/reloj.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/reloj.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/reloj.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/reloj/bin/Debug/net7.0/reloj
+/home/wally/Documents/Code/tod/C#/progra2/reloj/bin/Debug/net7.0/reloj.deps.json
+/home/wally/Documents/Code/tod/C#/progra2/reloj/bin/Debug/net7.0/reloj.runtimeconfig.json
+/home/wally/Documents/Code/tod/C#/progra2/reloj/bin/Debug/net7.0/reloj.dll
+/home/wally/Documents/Code/tod/C#/progra2/reloj/bin/Debug/net7.0/reloj.pdb
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/reloj.dll
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/refint/reloj.dll
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/reloj.pdb
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/reloj.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/C#/progra2/reloj/obj/Debug/net7.0/ref/reloj.dll
