@@ -19,7 +19,7 @@ def fac_iterativo(n):
     return f_sig
 
 ln = []
-for i in range(10, 50):
+for i in range(10, 30):
     ln.append(i)
 
 # interativo_times es una lista que almacena los tiempos de ejecución del factorial iterativo
