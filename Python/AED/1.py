@@ -1,5 +1,7 @@
 import time
 
+# funcion para calcular el tiempo de ejecucion de una funcion
+# 
 def codigo_1(numero):
     a = 0
     for j in range(1, numero+1):
@@ -117,8 +119,6 @@ print("")
 print("Suma recursiva:      {}".format(t7-t6))
 print("Suma iterativa:      {}".format(t8-t7))
 print("")
-
-
 
 
 
