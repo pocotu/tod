@@ -57,6 +57,8 @@ def suma2(n):
 
 #########################
 
+#########################
+
 # Calcular y medir tiempo para la primera función
 t0 = time.time()
 
