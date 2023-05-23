@@ -1,19 +1,28 @@
 using System;
 using System.Diagnostics;
 
+// se crea la clase Ejemplo
 public class Ejemplo
 {
     // Factorial recursivo
     public static int fac_recursivo(int n)
     {
+	// Si n es 1 o 2, entonces retorna 1
         if (n == 1 || n == 2)
         {
             return 1;
         }
+	// Si n es mayor que 2, entonces retorna
+	// la suma de los dos anteriores
         else
         {
             return fac_recursivo(n - 1) + fac_recursivo(n - 2);
         }
+	// ejemplos: 
+	// fac_recursivo(5) = fac_recursivo(4) + fac_recursivo(3)
+	// fac_recursivo(4) = fac_recursivo(3) + fac_recursivo(2)
+	// fac_recursivo(3) = fac_recursivo(2) + fac_recursivo(1)
+	// fac_recursivo(2) = fac_recursivo(1) = 1
     }
 
     // Factorial iterativo
@@ -69,3 +78,5 @@ public class Ejemplo
         }
     }
 }
+
+
