@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/1.suma_por_diferencia.csproj": {}
+    "D:\\Algo\\Win\\VSC\\pocotu\\tod\\C#\\progra2\\1.suma_por_diferencia\\1.suma_por_diferencia.csproj": {}
   },
   "projects": {
-    "/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/1.suma_por_diferencia.csproj": {
+    "D:\\Algo\\Win\\VSC\\pocotu\\tod\\C#\\progra2\\1.suma_por_diferencia\\1.suma_por_diferencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/1.suma_por_diferencia.csproj",
+        "projectUniqueName": "D:\\Algo\\Win\\VSC\\pocotu\\tod\\C#\\progra2\\1.suma_por_diferencia\\1.suma_por_diferencia.csproj",
         "projectName": "1.suma_por_diferencia",
-        "projectPath": "/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/1.suma_por_diferencia.csproj",
-        "packagesPath": "/home/wally/.nuget/packages/",
-        "outputPath": "/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/",
+        "projectPath": "D:\\Algo\\Win\\VSC\\pocotu\\tod\\C#\\progra2\\1.suma_por_diferencia\\1.suma_por_diferencia.csproj",
+        "packagesPath": "C:\\Users\\rossb\\.nuget\\packages\\",
+        "outputPath": "D:\\Algo\\Win\\VSC\\pocotu\\tod\\C#\\progra2\\1.suma_por_diferencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/wally/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rossb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
