@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/bin/Debug/net7.0/1.suma_por_diferencia
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/bin/Debug/net7.0/1.suma_por_diferencia.deps.json
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/bin/Debug/net7.0/1.suma_por_diferencia.runtimeconfig.json
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/bin/Debug/net7.0/1.suma_por_diferencia.dll
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/bin/Debug/net7.0/1.suma_por_diferencia.pdb
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/1.suma_por_diferencia.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/1.suma_por_diferencia.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/1.suma_por_diferencia.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/1.suma_por_diferencia.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/1.suma_por_diferencia.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/1.suma_por_diferencia.dll
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/refint/1.suma_por_diferencia.dll
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/1.suma_por_diferencia.pdb
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/1.suma_por_diferencia.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/C#/progra2/1.suma_por_diferencia/obj/Debug/net7.0/ref/1.suma_por_diferencia.dll
