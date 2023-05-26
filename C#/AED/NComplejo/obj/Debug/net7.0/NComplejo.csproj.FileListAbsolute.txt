@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/bin/Debug/net7.0/NComplejo
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/bin/Debug/net7.0/NComplejo.deps.json
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/bin/Debug/net7.0/NComplejo.runtimeconfig.json
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/bin/Debug/net7.0/NComplejo.dll
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/bin/Debug/net7.0/NComplejo.pdb
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/NComplejo.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/NComplejo.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/NComplejo.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/NComplejo.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/NComplejo.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/NComplejo.dll
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/refint/NComplejo.dll
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/NComplejo.pdb
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/NComplejo.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/C#/AED/NComplejo/obj/Debug/net7.0/ref/NComplejo.dll
