@@ -8,6 +8,7 @@ namespace Fechas
         protected int mes;
         protected int año;
 
+        // constructor 
         public Fecha()
         {
             dia = DateTime.Now.Day;
@@ -15,6 +16,7 @@ namespace Fechas
             año = DateTime.Now.Year;
         }
 
+        // constructor sobrecargado
         public Fecha(int dia, int mes, int año)
         {
             this.dia = dia;
@@ -22,6 +24,7 @@ namespace Fechas
             this.año = año;
         }
 
+        // getters y setters
         public int Dia
         {
             get { return dia; }
@@ -34,27 +37,24 @@ namespace Fechas
             set { mes = value; }
         }
 
-        public int Año
+        public int Anio
         {
             get { return año; }
             set { año = value; }
         }
 
-        public bool FechaCorrecta()
-        {
-            return ValidarFecha(dia, mes, año);
-        }
+        // metodos
 
         public virtual string EnTexto()
         {
-            string textoFecha = $"{dia}/{mes}/{año}";
+            string textoFecha = dia + "/" + mes + "/" + año;
             return textoFecha;
         }
 
         public int DiasTranscurridos(Fecha otraFecha)
         {
             DateTime fecha1 = new DateTime(año, mes, dia);
-            DateTime fecha2 = new DateTime(otraFecha.Año, otraFecha.Mes, otraFecha.Dia);
+            DateTime fecha2 = new DateTime(otraFecha.Anio, otraFecha.Mes, otraFecha.Dia);
 
             TimeSpan diferencia = fecha2 - fecha1;
             int diasTranscurridos = diferencia.Days;
@@ -62,15 +62,7 @@ namespace Fechas
             return Math.Abs(diasTranscurridos);
         }
 
-        public Fecha DiaSiguiente()
-        {
-            DateTime fecha = new DateTime(año, mes, dia);
-            fecha = fecha.AddDays(1);
-
-            Fecha siguienteFecha = new Fecha(fecha.Day, fecha.Month, fecha.Year);
-            return siguienteFecha;
-        }
-
+        // metodo privado
         protected bool ValidarFecha(int dia, int mes, int año)
         {
             try

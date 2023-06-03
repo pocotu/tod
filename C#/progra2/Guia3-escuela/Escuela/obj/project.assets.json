@@ -8,24 +8,32 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/wally/.nuget/packages/": {}
+    "C:\\Users\\rossb\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wally/Documents/Code/tod/C#/progra2/Guia3/Escuela/Guia3.csproj",
+      "projectUniqueName": "D:\\Algo\\Win\\VSC\\pocotu\\tod\\C#\\progra2\\Guia3-escuela\\Escuela\\Guia3.csproj",
       "projectName": "Guia3",
-      "projectPath": "/home/wally/Documents/Code/tod/C#/progra2/Guia3/Escuela/Guia3.csproj",
-      "packagesPath": "/home/wally/.nuget/packages/",
-      "outputPath": "/home/wally/Documents/Code/tod/C#/progra2/Guia3/Escuela/obj/",
+      "projectPath": "D:\\Algo\\Win\\VSC\\pocotu\\tod\\C#\\progra2\\Guia3-escuela\\Escuela\\Guia3.csproj",
+      "packagesPath": "C:\\Users\\rossb\\.nuget\\packages\\",
+      "outputPath": "D:\\Algo\\Win\\VSC\\pocotu\\tod\\C#\\progra2\\Guia3-escuela\\Escuela\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/wally/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\rossb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/wally/.dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

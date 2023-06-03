@@ -16,21 +16,15 @@ namespace Fechas
     {
         public static void Main(string[] args)
         {
-            // Ejemplo de uso de las clases Fecha y FechaCompleta
+            // llamada a los metodos de la clase Fecha
             Fecha fecha1 = new Fecha(10, 5, 2023);
             FechaCompleta fechaCompleta1 = new FechaCompleta(10, 5, 2023, 12, 30, 0);
 
             Console.WriteLine("Fecha: " + fecha1.EnTexto());
             Console.WriteLine("Fecha completa: " + fechaCompleta1.EnTexto());
 
-            Console.WriteLine("Fecha válida: " + fecha1.FechaCorrecta());
-            Console.WriteLine("Fecha completa válida: " + fechaCompleta1.FechaCorrecta());
-
             Fecha fecha2 = new Fecha(20, 5, 2023);
-            Console.WriteLine("Días transcurridos: " + fecha1.DiasTranscurridos(fecha2));
-
-            Fecha fechaSiguiente = fecha1.DiaSiguiente();
-            Console.WriteLine("Día siguiente: " + fechaSiguiente.EnTexto());
+            Console.WriteLine("Dias transcurridos: " + fecha1.DiasTranscurridos(fecha2));
         }
     }
 }

@@ -21,3 +21,11 @@
 /home/wally/Documents/Code/tod/C#/AED/CTriangulo/obj/Debug/net7.0/CTriangulo.dll
 /home/wally/Documents/Code/tod/C#/AED/CTriangulo/obj/Debug/net7.0/refint/CTriangulo.dll
 /home/wally/Documents/Code/tod/C#/AED/CTriangulo/obj/Debug/net7.0/CTriangulo.pdb
+D:\Algo\Win\VSC\pocotu\tod\C#\AED\CTriangulo\obj\Debug\net7.0\CTriangulo.csproj.AssemblyReference.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\AED\CTriangulo\obj\Debug\net7.0\CTriangulo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\C#\AED\CTriangulo\obj\Debug\net7.0\CTriangulo.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\AED\CTriangulo\obj\Debug\net7.0\CTriangulo.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\C#\AED\CTriangulo\obj\Debug\net7.0\CTriangulo.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\AED\CTriangulo\obj\Debug\net7.0\CTriangulo.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\AED\CTriangulo\obj\Debug\net7.0\refint\CTriangulo.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\AED\CTriangulo\obj\Debug\net7.0\CTriangulo.pdb
