@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/bin/Debug/net7.0/CPersona
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/bin/Debug/net7.0/CPersona.deps.json
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/bin/Debug/net7.0/CPersona.runtimeconfig.json
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/bin/Debug/net7.0/CPersona.dll
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/bin/Debug/net7.0/CPersona.pdb
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/CPersona.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/CPersona.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/CPersona.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/CPersona.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/CPersona.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/CPersona.dll
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/refint/CPersona.dll
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/CPersona.pdb
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/CPersona.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/C#/progra2/Guia4/CPersona2/obj/Debug/net7.0/ref/CPersona.dll

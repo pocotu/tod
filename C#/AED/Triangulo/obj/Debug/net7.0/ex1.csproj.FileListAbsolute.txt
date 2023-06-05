@@ -1,0 +1,15 @@
+/home/wally/Downloads/cod/1/ex1/bin/Debug/net7.0/ex1
+/home/wally/Downloads/cod/1/ex1/bin/Debug/net7.0/ex1.deps.json
+/home/wally/Downloads/cod/1/ex1/bin/Debug/net7.0/ex1.runtimeconfig.json
+/home/wally/Downloads/cod/1/ex1/bin/Debug/net7.0/ex1.dll
+/home/wally/Downloads/cod/1/ex1/bin/Debug/net7.0/ex1.pdb
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ex1.csproj.AssemblyReference.cache
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ex1.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ex1.AssemblyInfoInputs.cache
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ex1.AssemblyInfo.cs
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ex1.csproj.CoreCompileInputs.cache
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ex1.dll
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/refint/ex1.dll
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ex1.pdb
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ex1.genruntimeconfig.cache
+/home/wally/Downloads/cod/1/ex1/obj/Debug/net7.0/ref/ex1.dll
