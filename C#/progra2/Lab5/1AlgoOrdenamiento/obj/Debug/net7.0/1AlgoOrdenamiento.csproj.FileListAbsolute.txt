@@ -1,0 +1,15 @@
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\1AlgoOrdenamiento.csproj.AssemblyReference.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\1AlgoOrdenamiento.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\1AlgoOrdenamiento.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\1AlgoOrdenamiento.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\1AlgoOrdenamiento.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\bin\Debug\net7.0\1AlgoOrdenamiento.exe
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\bin\Debug\net7.0\1AlgoOrdenamiento.deps.json
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\bin\Debug\net7.0\1AlgoOrdenamiento.runtimeconfig.json
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\bin\Debug\net7.0\1AlgoOrdenamiento.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\bin\Debug\net7.0\1AlgoOrdenamiento.pdb
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\1AlgoOrdenamiento.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\refint\1AlgoOrdenamiento.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\1AlgoOrdenamiento.pdb
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\1AlgoOrdenamiento.genruntimeconfig.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Lab5\1AlgoOrdenamiento\obj\Debug\net7.0\ref\1AlgoOrdenamiento.dll
