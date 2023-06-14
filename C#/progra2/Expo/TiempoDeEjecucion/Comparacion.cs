@@ -57,7 +57,7 @@ namespace Busqueda
         {
             if (posicion != -1)
             {
-                Console.WriteLine("El valor {0} se encontró en la posicion {1}", valorBuscado, posicion);
+                Console.WriteLine("El valor {0} se encontro en la posicion {1}", valorBuscado, posicion);
             }
             else
             {

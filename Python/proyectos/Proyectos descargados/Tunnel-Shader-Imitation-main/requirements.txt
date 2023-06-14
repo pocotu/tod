@@ -1,4 +1,0 @@
-pygame
-numpy
-taichi
-taichi_glsl
