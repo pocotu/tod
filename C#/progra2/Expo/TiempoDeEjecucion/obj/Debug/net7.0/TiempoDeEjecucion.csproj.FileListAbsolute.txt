@@ -1,0 +1,15 @@
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\bin\Debug\net7.0\TiempoDeEjecucion.exe
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\bin\Debug\net7.0\TiempoDeEjecucion.deps.json
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\bin\Debug\net7.0\TiempoDeEjecucion.runtimeconfig.json
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\bin\Debug\net7.0\TiempoDeEjecucion.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\bin\Debug\net7.0\TiempoDeEjecucion.pdb
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\TiempoDeEjecucion.csproj.AssemblyReference.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\TiempoDeEjecucion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\TiempoDeEjecucion.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\TiempoDeEjecucion.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\TiempoDeEjecucion.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\TiempoDeEjecucion.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\refint\TiempoDeEjecucion.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\TiempoDeEjecucion.pdb
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\TiempoDeEjecucion.genruntimeconfig.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\TiempoDeEjecucion\obj\Debug\net7.0\ref\TiempoDeEjecucion.dll

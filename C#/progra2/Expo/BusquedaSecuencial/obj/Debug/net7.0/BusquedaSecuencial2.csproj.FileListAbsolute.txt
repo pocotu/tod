@@ -1,0 +1,15 @@
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\bin\Debug\net7.0\BusquedaSecuencial2.exe
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\bin\Debug\net7.0\BusquedaSecuencial2.deps.json
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\bin\Debug\net7.0\BusquedaSecuencial2.runtimeconfig.json
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\bin\Debug\net7.0\BusquedaSecuencial2.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\bin\Debug\net7.0\BusquedaSecuencial2.pdb
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\BusquedaSecuencial2.csproj.AssemblyReference.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\BusquedaSecuencial2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\BusquedaSecuencial2.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\BusquedaSecuencial2.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\BusquedaSecuencial2.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\BusquedaSecuencial2.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\refint\BusquedaSecuencial2.dll
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\BusquedaSecuencial2.pdb
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\BusquedaSecuencial2.genruntimeconfig.cache
+D:\Algo\Win\VSC\pocotu\tod\C#\progra2\Expo\BusquedaSecuencial2\obj\Debug\net7.0\ref\BusquedaSecuencial2.dll
