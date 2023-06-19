@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/bin/Debug/net7.0/CuentaBancaria
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/bin/Debug/net7.0/CuentaBancaria.deps.json
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/bin/Debug/net7.0/CuentaBancaria.runtimeconfig.json
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/bin/Debug/net7.0/CuentaBancaria.dll
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/bin/Debug/net7.0/CuentaBancaria.pdb
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/CuentaBancaria.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/CuentaBancaria.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/CuentaBancaria.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/CuentaBancaria.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/CuentaBancaria.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/CuentaBancaria.dll
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/refint/CuentaBancaria.dll
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/CuentaBancaria.pdb
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/CuentaBancaria.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/C#/progra2/Exa/CuentaBancaria/obj/Debug/net7.0/ref/CuentaBancaria.dll
