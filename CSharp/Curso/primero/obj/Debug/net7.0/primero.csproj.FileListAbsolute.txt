@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/bin/Debug/net7.0/primero
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/bin/Debug/net7.0/primero.deps.json
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/bin/Debug/net7.0/primero.runtimeconfig.json
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/bin/Debug/net7.0/primero.dll
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/bin/Debug/net7.0/primero.pdb
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/primero.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/primero.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/primero.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/primero.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/primero.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/primero.dll
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/refint/primero.dll
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/primero.pdb
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/primero.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/CSharp/Curso/primero/obj/Debug/net7.0/ref/primero.dll
