@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/bin/Debug/net7.0/2ListaDinamica
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/bin/Debug/net7.0/2ListaDinamica.deps.json
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/bin/Debug/net7.0/2ListaDinamica.runtimeconfig.json
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/bin/Debug/net7.0/2ListaDinamica.dll
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/bin/Debug/net7.0/2ListaDinamica.pdb
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/2ListaDinamica.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/2ListaDinamica.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/2ListaDinamica.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/2ListaDinamica.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/2ListaDinamica.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/2ListaDinamica.dll
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/refint/2ListaDinamica.dll
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/2ListaDinamica.pdb
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/2ListaDinamica.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/C#/AED/SegParcial/2ListaDinamica/obj/Debug/net7.0/ref/2ListaDinamica.dll
