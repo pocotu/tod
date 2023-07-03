@@ -1,0 +1,5 @@
+/home/wally/Documents/Code/tod/CSharp/progra2/SegParcial/2Lista/obj/Debug/net7.0/2Lista.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/CSharp/progra2/SegParcial/2Lista/obj/Debug/net7.0/2Lista.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/CSharp/progra2/SegParcial/2Lista/obj/Debug/net7.0/2Lista.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/CSharp/progra2/SegParcial/2Lista/obj/Debug/net7.0/2Lista.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/CSharp/progra2/SegParcial/2Lista/obj/Debug/net7.0/2Lista.csproj.CoreCompileInputs.cache
