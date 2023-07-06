@@ -1,0 +1,15 @@
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\bin\Debug\net7.0\Colas.exe
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\bin\Debug\net7.0\Colas.deps.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\bin\Debug\net7.0\Colas.runtimeconfig.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\bin\Debug\net7.0\Colas.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\bin\Debug\net7.0\Colas.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\Colas.csproj.AssemblyReference.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\Colas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\Colas.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\Colas.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\Colas.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\Colas.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\refint\Colas.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\Colas.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\Colas.genruntimeconfig.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Colas\obj\Debug\net7.0\ref\Colas.dll
