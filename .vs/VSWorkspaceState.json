@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\C#",
-    "\\C#\\progra2",
-    "\\C#\\progra2\\Lab5",
-    "\\C#\\progra2\\Lab5\\1AlgoOrdenamiento"
+    "\\CSharp",
+    "\\CSharp\\AED",
+    "\\CSharp\\AED\\SegParcial",
+    "\\CSharp\\AED\\SegParcial\\Colas"
   ],
-  "SelectedNode": "\\C#\\progra2\\Lab5\\1AlgoOrdenamiento\\Program.cs",
+  "SelectedNode": "\\CSharp\\AED\\SegParcial\\Colas\\CCola.cs",
   "PreviewInSolutionExplorer": false
 }
