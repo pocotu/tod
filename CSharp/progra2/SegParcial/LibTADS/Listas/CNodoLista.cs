@@ -8,11 +8,11 @@ namespace Listas
 {
     public class CNodoLista
     {
-        #region Atributos
+        //#region Atributos
         private Object aElemento;
         private CNodoLista aSgte;
-        #endregion Propiedades
-        #region Constructores
+        //#endregion Propiedades
+        //#region Constructores
         public CNodoLista()
         {
             aElemento = null;
@@ -28,8 +28,8 @@ namespace Listas
             aElemento = pElemento;
             aSgte = pNodo;
         }
-        #endregion Constructores
-        #region Propiedades
+        //#endregion Constructores
+        //#region Propiedades
         public object Elemento
         {
             set { aElemento = value; }
@@ -40,6 +40,6 @@ namespace Listas
             set { aSgte = value; }
             get { return aSgte; }
         }
-        #endregion Propiedades
+        //#endregion Propiedades
     }
 }

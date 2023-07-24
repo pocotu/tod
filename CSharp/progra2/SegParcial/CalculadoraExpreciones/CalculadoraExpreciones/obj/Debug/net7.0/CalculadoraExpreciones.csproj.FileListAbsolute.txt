@@ -1,0 +1,15 @@
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\bin\Debug\net7.0\CalculadoraExpreciones.exe
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\bin\Debug\net7.0\CalculadoraExpreciones.deps.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\bin\Debug\net7.0\CalculadoraExpreciones.runtimeconfig.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\bin\Debug\net7.0\CalculadoraExpreciones.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\bin\Debug\net7.0\CalculadoraExpreciones.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\CalculadoraExpreciones.csproj.AssemblyReference.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\CalculadoraExpreciones.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\CalculadoraExpreciones.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\CalculadoraExpreciones.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\CalculadoraExpreciones.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\CalculadoraExpreciones.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\refint\CalculadoraExpreciones.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\CalculadoraExpreciones.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\CalculadoraExpreciones.genruntimeconfig.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\CalculadoraExpreciones\CalculadoraExpreciones\obj\Debug\net7.0\ref\CalculadoraExpreciones.dll

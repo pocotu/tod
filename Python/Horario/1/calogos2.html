@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mostrar tabla de archivo .xls</title>
+  <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <input type="file" id="xlsFileInput">
+  <button onclick="handleFile()">Cargar archivo</button>
+  <div id="tableContainer"></div>
+
+  <script>
+    function handleFile() {
+      var fileInput = document.getElementById('xlsFileInput');
+      var file = fileInput.files[0];
+      
+      var reader = new FileReader();
+      reader.onload = function(e) {
+        var data = new Uint8Array(e.target.result);
+        var workbook = XLSX.read(data, {type: 'array'});
+        var worksheet = workbook.Sheets[workbook.SheetNames[0]];
+        
+        var jsonData = XLSX.utils.sheet_to_json(worksheet, {header: 1});
+        // También puedes utilizar XLSX.utils.sheet_to_csv para convertir a CSV
+        
+        displayTable(jsonData);
+      };
+      reader.readAsArrayBuffer(file);
+    }
+
+    function displayTable(data) {
+      var table = document.createElement('table');
+      
+      var thead = document.createElement('thead');
+      var headerRow = document.createElement('tr');
+      for (var i = 0; i < data[0].length; i++) {
+        var th = document.createElement('th');
+        th.textContent = data[0][i];
+        headerRow.appendChild(th);
+      }
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
+      
+      var tbody = document.createElement('tbody');
+      for (var i = 1; i < data.length; i++) {
+        var row = document.createElement('tr');
+        for (var j = 0; j < data[i].length; j++) {
+          var td = document.createElement('td');
+          td.textContent = data[i][j];
+          row.appendChild(td);
+        }
+        tbody.appendChild(row);
+      }
+      table.appendChild(tbody);
+      
+      var container = document.getElementById('tableContainer');
+      container.innerHTML = '';
+      container.appendChild(table);
+    }
+  </script>
+</body>
+</html>

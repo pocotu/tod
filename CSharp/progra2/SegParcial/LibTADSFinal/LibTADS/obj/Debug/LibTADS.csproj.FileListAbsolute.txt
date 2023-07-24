@@ -1,0 +1,12 @@
+D:\Algo\Win\VS\CSHARP\LibTADS\LibTADS\bin\Debug\LibTADS.dll
+D:\Algo\Win\VS\CSHARP\LibTADS\LibTADS\bin\Debug\LibTADS.pdb
+D:\Algo\Win\VS\CSHARP\LibTADS\LibTADS\obj\Debug\LibTADS.csproj.AssemblyReference.cache
+D:\Algo\Win\VS\CSHARP\LibTADS\LibTADS\obj\Debug\LibTADS.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VS\CSHARP\LibTADS\LibTADS\obj\Debug\LibTADS.dll
+D:\Algo\Win\VS\CSHARP\LibTADS\LibTADS\obj\Debug\LibTADS.pdb
+D:\Algo\Win\VS\CSHARP\LibTADSCopia\LibTADS\bin\Debug\LibTADS.dll
+D:\Algo\Win\VS\CSHARP\LibTADSCopia\LibTADS\bin\Debug\LibTADS.pdb
+D:\Algo\Win\VS\CSHARP\LibTADSCopia\LibTADS\obj\Debug\LibTADS.csproj.AssemblyReference.cache
+D:\Algo\Win\VS\CSHARP\LibTADSCopia\LibTADS\obj\Debug\LibTADS.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VS\CSHARP\LibTADSCopia\LibTADS\obj\Debug\LibTADS.dll
+D:\Algo\Win\VS\CSHARP\LibTADSCopia\LibTADS\obj\Debug\LibTADS.pdb
