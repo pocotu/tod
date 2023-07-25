@@ -1,0 +1,15 @@
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/bin/Debug/net7.0/ArbolBinario
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/bin/Debug/net7.0/ArbolBinario.deps.json
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/bin/Debug/net7.0/ArbolBinario.runtimeconfig.json
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/bin/Debug/net7.0/ArbolBinario.dll
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/bin/Debug/net7.0/ArbolBinario.pdb
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ArbolBinario.csproj.AssemblyReference.cache
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ArbolBinario.GeneratedMSBuildEditorConfig.editorconfig
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ArbolBinario.AssemblyInfoInputs.cache
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ArbolBinario.AssemblyInfo.cs
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ArbolBinario.csproj.CoreCompileInputs.cache
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ArbolBinario.dll
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/refint/ArbolBinario.dll
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ArbolBinario.pdb
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ArbolBinario.genruntimeconfig.cache
+/home/wally/Documents/Code/tod/CSharp/AED/SegParcial/ArbolBinario/obj/Debug/net7.0/ref/ArbolBinario.dll
