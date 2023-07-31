@@ -1,0 +1,15 @@
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\bin\Debug\net7.0\AppPlaya.exe
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\bin\Debug\net7.0\AppPlaya.deps.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\bin\Debug\net7.0\AppPlaya.runtimeconfig.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\bin\Debug\net7.0\AppPlaya.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\bin\Debug\net7.0\AppPlaya.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\AppPlaya.csproj.AssemblyReference.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\AppPlaya.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\AppPlaya.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\AppPlaya.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\AppPlaya.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\AppPlaya.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\refint\AppPlaya.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\AppPlaya.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\AppPlaya.genruntimeconfig.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\AppPlaya\AppPlaya\obj\Debug\net7.0\ref\AppPlaya.dll
