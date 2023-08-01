@@ -1,0 +1,31 @@
+El comando "hexdump"
+Es un comando que nos permite ver el contenido de un archivo en 
+hexadecimal, octal, binario, decimal, etc. Es muy útil para ver 
+el contenido de un archivo en un formato que no sea texto plano. 
+Por ejemplo, si queremos ver el contenido de un archivo de 
+imagen, de audio, de video, etc. podemos usar este comando para 
+ver el contenido en hexadecimal.
+
+El comando "hexdump" tiene muchas opciones, pero las más
+importantes son las siguientes:
+
+- -C: muestra el contenido en hexadecimal y en ASCII.
+- -c: muestra el contenido en ASCII.
+- -b: muestra el contenido en octal.
+- -d: muestra el contenido en decimal.
+- -x: muestra el contenido en hexadecimal.
+
+Ejemplos:
+
+- hexdump -C archivo.txt
+
+para ver en hexadecimal y decimal del contenido del archivo.txt
+se ingresaría el siguiente comando:
+
+- hexdump -d archivo.txt
+
+Donde nos mostrará el contenido del archivo.txt en hexadecimal
+y decimal con 9 columnas. 
+La primera columna nos muestra la posición en bytes del archivo,
+la segunda columna nos muestra el contenido en hexadecimal y 
+la tercera columna nos muestra el contenido en decimal.
