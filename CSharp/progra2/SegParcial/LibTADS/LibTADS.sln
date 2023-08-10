@@ -1,10 +1,20 @@
-﻿
+﻿# ARchivo SLN de Visual Studio
+# Es un archivo de texto que contiene información sobre la solución y los proyectos
+# que contiene la solución y sus dependencias y referencias
+#
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
+# Project es la solución
+# FAE04EC0-301F-11D3-BF4B-00C04F79EFBC es el tipo de proyecto de C#
+# y este es de tipo librería de clases (Class Library) y es el proyecto de la librería
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTADS", "LibTADS\LibTADS.csproj", "{A73923A6-2D66-4B83-A4C1-204E5DE39260}"
+# EndProject es el final del proyecto LibTADS y su GUID, osea su identificador único
 EndProject
+# FAEB04EC0-301F-11D3-BF4B-00C04F79EFBC es el tipo de proyecto de C#
+# y este es de tipo librería de clases (Class Library) y es el proyecto de test
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{4B2DD4B9-6C24-4A66-9D42-A019B9D462D0}"
 EndProject
 Global

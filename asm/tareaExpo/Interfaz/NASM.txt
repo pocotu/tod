@@ -1,0 +1,29 @@
+Ensamblador NASM (Netwide Assembler)
+Es un ensamblador para la arquitectura x86 y x86-64. Es considerado el ensamblador más
+popular para Linux, aunque también puede ser usado en otros sistemas operativos. Es 
+software libre, distribuido bajo la licencia BSD.
+
+Para enteder mejor el funcionamiento de este ensamblador, se recomienda tener conocimientos
+básicos de ensamblador x86 y arquitectura de computadoras.
+
+Ejemplo de código en NASM que imprime un mensaje en pantalla:
+
+```nasm
+section .data
+    msg db "Hola mundo!", 0x0a, 0x00
+
+section .text
+
+global _start
+
+_start:
+    mov rax, 1
+    mov rdi, 1
+    mov rsi, msg
+    mov rdx, 13
+    syscall
+
+    mov rax, 60
+    mov rdi, 0
+    syscall
+```

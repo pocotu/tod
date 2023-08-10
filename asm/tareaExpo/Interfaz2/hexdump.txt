@@ -29,3 +29,12 @@ y decimal con 9 columnas.
 La primera columna nos muestra la posición en bytes del archivo,
 la segunda columna nos muestra el contenido en hexadecimal y 
 la tercera columna nos muestra el contenido en decimal.
+
+Compilador NASM (Netwide Assembler)
+Es un ensamblador para la arquitectura x86. Es un programa que
+traduce un lenguaje ensamblador a lenguaje máquina. El lenguaje
+ensamblador es un lenguaje de bajo nivel que nos permite
+programar a bajo nivel.
+
+Para comentar en NASM se usa el punto y coma (;).
+

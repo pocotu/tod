@@ -1,3 +1,5 @@
+// Ejemplo de llamada a una funcion en ensamblador desde C
+// Compilar: gcc -o main main.c square.s
 #include <stdio.h>
 extern int square(int x);  // Declaracion de la funcion en ensamblador
 int main() {
