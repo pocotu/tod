@@ -27,3 +27,26 @@ _start:
     mov rdi, 0
     syscall
 ```
+
+Para compilar el código anterior, se debe 
+ejecutar el siguiente comando:
+
+```bash
+nasm -f elf64 -o hola.o hola.asm
+```
+
+ahora describiré cada uno de los parámetros:
+
+* `-f elf64`: indica que el formato de salida será un archivo objeto de 64 bits.
+* `-o hola.o`: indica que el archivo objeto de salida se llamará `hola.o`.
+* `hola.asm`: es el archivo de código fuente.
+
+Registros
+---------
+La arquitectura x86-64 tiene 16 registros de 64 bits, los cuale se pueden
+dividir en 3 grupos:
+
+* Registros de propósito general: `rax`, `rbx`, `rcx`, `rdx`, `rsi`, `rdi`, `rbp`, `rsp`, `r8`, `r9`, `r10`, `r11`, `r12`, `r13`, `r14`, `r15`.
+* Registros de segmento: `cs`, `ds`, `es`, `fs`, `gs`, `ss`.
+* Registros de control: `cr0`, `cr2`, `cr3`, `cr4`, `cr8`, `efer`, `rflags`.
+
