@@ -1,0 +1,8 @@
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\expoArbolBnario\ConsoleApp31\ConsoleApp31\bin\Debug\ConsoleApp31.exe.config
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\expoArbolBnario\ConsoleApp31\ConsoleApp31\bin\Debug\ConsoleApp31.exe
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\expoArbolBnario\ConsoleApp31\ConsoleApp31\bin\Debug\ConsoleApp31.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\expoArbolBnario\ConsoleApp31\ConsoleApp31\obj\Debug\ConsoleApp31.csproj.AssemblyReference.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\expoArbolBnario\ConsoleApp31\ConsoleApp31\obj\Debug\ConsoleApp31.csproj.SuggestedBindingRedirects.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\expoArbolBnario\ConsoleApp31\ConsoleApp31\obj\Debug\ConsoleApp31.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\expoArbolBnario\ConsoleApp31\ConsoleApp31\obj\Debug\ConsoleApp31.exe
+D:\Algo\Win\VSC\pocotu\tod\CSharp\progra2\SegParcial\expoArbolBnario\ConsoleApp31\ConsoleApp31\obj\Debug\ConsoleApp31.pdb
