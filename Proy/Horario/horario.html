@@ -22,12 +22,17 @@
     <div id="schedule"></div>
     
     <script>
+        /*Ejecuta cuando se selecciona un archivo CSV */
         function handleFile(files) {
-            const file = files[0];
-            const reader = new FileReader();
+            /* Obtener el archivo seleccionado */
+            const file = files[0]; /* files es un arreglo (array) de archivos */
+            const reader = new FileReader(); /* Objeto para leer el archivo */
 
+            /* Leer el contenido del archivo y mostrarlo en consola */
             reader.onload = function(event) {
+                /* El contenido del archivo se almacena en la propiedad result */
                 const text = event.target.result;
+                /* Mostrar el contenido del archivo en consola */
                 const courses = parseCSV(text);
                 const schedule = generateSchedule(courses);
                 displaySchedule(schedule);
