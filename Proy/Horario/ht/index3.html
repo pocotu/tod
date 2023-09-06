@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios 9J</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.6/css/responsive.bootstrap4.min.css">
+</head>
+<body>
+    <style>
+        table th {
+            text-align: center;
+          }
+          table td {
+            text-align: center;
+          }
+    </style>
+    <div class="container mt-4">
+    <div class="card-header">
+        <h1 class="text-center">Horario 9°J</h1>
+    </div>
+    <div class="card-body">
+    <table id="example" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>Grupo</th>
+                <th>Materia</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Profesor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9°J</td>
+                <td><strong>Elec.Libre Disc, C</strong> Seminario de Invetigacion</td>
+                <td>-</td>
+                <td>-</td>
+                <td>4:00-5:00 PM</td>
+                <td>5:00-6:00 PM</td>
+                <td>-</td>
+                <td>Roman Juliana Rebeca, DRA.</td>
+            </tr>
+            <tr>
+                <td>9°J</td>
+                <td><strong>Elect.Libre Disc, D</strong> Servicio Web</td>
+                <td>8:00-9:00 PM</td>
+                <td>-</td>
+                <td>5:00-6:00 PM</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Pérez Ovando Rigoberto, LIC.</td>
+            </tr>
+            <tr>
+                <td>9°J</td>
+                <td>Formulación de Proyectos</td>
+                <td>4:00-5:00 PM</td>
+                <td>4:00-6:00 PM</td>
+                <td>6:00-8:00 PM</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Mandujano Dominguez Isis, DRA.</td>
+            </tr>
+            <tr>
+                <td>9°J</td>
+                <td>Ingenieria de Software</td>
+                <td>9:00-10:00 PM</td>
+                <td>9:00-10:00 PM</td>
+                <td>9:00-10:00 PM</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Gutierrez Gómez Maria Candelaria, DRA.</td>
+            </tr>
+            
+    </table>
+</div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.6/js/responsive.bootstrap4.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#example').DataTable({
+            responsive:true,
+            "language":{
+                "sProcessing": "Procesando...",
+                "sLengthMenu": "Mostrar _MENU_ registros",
+                "sZeroRecords": "No se encontraron resultados",
+                "sEmptyTable": "Ningún dato disponible en esta tabla",
+                "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+                "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                "sSearch": "Buscar:",
+                "sInfoThousands": ",",
+                "sLoadingRecords": "Cargando...",
+                "oPaginate": {
+                "sFirst": "Primero",
+                "sLast": "Último",
+                "sNext": "Siguiente",
+                "sPrevious": "Anterior"
+                },
+                "oAria": {
+                "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+                "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                },
+                "buttons": {
+                "copy": "Copiar",
+                "colvis": "Visibilidad"
+                }
+                }
+        }
+        );
+    } );
+</script>
+</html>
