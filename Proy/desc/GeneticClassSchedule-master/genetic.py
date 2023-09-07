@@ -3,10 +3,8 @@ import numpy as np
 
 from schedule import schedule_cost
 
-
 class GeneticOptimize:
-    """Genetic Algorithm.
-    """
+    ## Algoritmo genetico
     def __init__(self, popsize=30, mutprob=0.3, elite=5, maxiter=100):
         # size of population
         self.popsize = popsize
@@ -18,11 +16,10 @@ class GeneticOptimize:
         self.maxiter = maxiter
 
     def init_population(self, schedules, roomRange):
-        """Init population
-
-        Arguments:
-            schedules: List, population of class schedules.
-            roomRange: int, number of classrooms.
+        """Poblacion inicial
+        Argumentos:
+            horarios: Lista, poblacion de horarios de clase
+            roomRange: int, numero de salones
         """
         self.population = []
 
@@ -36,14 +33,13 @@ class GeneticOptimize:
             self.population.append(entity)
 
     def mutate(self, eiltePopulation, roomRange):
-        """Mutation Operation
+        """Operacion de mutacion
+        Argumentos:
+            eiltePopulation: Lista, poblacion de horarios de clase elite
+            roomRange: int, numero de salones
 
-        Arguments:
-            eiltePopulation: List, population of elite schedules.
-            roomRange: int, number of classrooms.
-
-        Returns:
-            ep: List, population after mutation. 
+        Retorna:
+            ep: Lista, poblacion despues de la mutacion
         """
         e = np.random.randint(0, self.elite, 1)[0]
         pos = np.random.randint(0, 2, 1)[0]
@@ -64,15 +60,15 @@ class GeneticOptimize:
         return ep
 
     def addSub(self, value, op, valueRange):
-        """Add or sub operation in mutation.
+        """Agregar o restar operacion en mutacion.
 
-        Arguments:
-            value: int, value to be mutated.
-            op: double, prob of operation.
-            valueRange: int, range of value.
+        Argumentos:
+            value: int, valor a mutar.
+            op: double, probabilidad de operacion.
+            valueRange: int, rango de valor.
 
-        Returns:
-            value: int, mutated value. 
+        Retorna:
+            value: int, valor mutado.
         """
         if op > 0.5:
             if value < valueRange:
@@ -88,13 +84,12 @@ class GeneticOptimize:
         return value
 
     def crossover(self, eiltePopulation):
-        """Crossover Operation
+        """Operacion de cruce
+        Argumentos:
+            eiltePopulation: Lista, poblacion de horarios de clase elite
 
-        Arguments:
-            eiltePopulation: List, population of elite schedules.
-
-        Returns:
-            ep: List, population after crossover. 
+        Retorna:
+            ep: Lista, poblacion despues de la mutacion
         """
         e1 = np.random.randint(0, self.elite, 1)[0]
         e2 = np.random.randint(0, self.elite, 1)[0]
@@ -114,15 +109,14 @@ class GeneticOptimize:
         return ep1
 
     def evolution(self, schedules, roomRange):
-        """evolution
-        
-        Arguments:
-            schedules: class schedules for optimization.
-            elite: int, number of best result.
+        """Evolucion
+        Argumentos:
+            horarios: Lista, poblacion de horarios de clase
+            elite: int, numero de mejor resultado
 
-        Returns:
-            index of best result.
-            best conflict score.
+        Retorna:
+            index: int, indice del mejor resultado
+            bestScore: int, mejor resultado
         """
         # Main loop .
         bestScore = 0

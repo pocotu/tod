@@ -1,3 +1,4 @@
+# Libreria para visualizar horario de clases.
 import prettytable 
 
 from schedule import Schedule
@@ -5,12 +6,11 @@ from genetic import GeneticOptimize
 
 
 def vis(schedule):
-    """visualization Class Schedule.
-
-    Arguments:
-        schedule: List, Class Schedule
+    """Visualizacion de horario de clases.
+    Argumentos:
+        horario: Lista, horario de clases.
     """
-    col_labels = ['week/slot', '1', '2', '3', '4', '5']
+    col_labels = ['Hora', '1', '2', '3', '4', '5']
     table_vals = [[i + 1, '', '', '', '', ''] for i in range(5)]
 
     table = prettytable.PrettyTable(col_labels, hrules=prettytable.ALL)
@@ -25,7 +25,6 @@ def vis(schedule):
         table.add_row(row)
 
     print(table)
-
 
 if __name__ == '__main__':
     schedules = []
