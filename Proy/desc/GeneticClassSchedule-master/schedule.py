@@ -1,7 +1,7 @@
 import numpy as np
 
+# Clase de horario de clases
 class Schedule:
-    # Horario de clases
     def __init__(self, courseId, classId, teacherId):
         """Init
         Argumentos:

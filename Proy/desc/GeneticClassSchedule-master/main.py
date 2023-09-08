@@ -4,13 +4,13 @@ import prettytable
 from schedule import Schedule
 from genetic import GeneticOptimize
 
-
 def vis(schedule):
     """Visualizacion de horario de clases.
     Argumentos:
         horario: Lista, horario de clases.
     """
-    col_labels = ['Hora', '1', '2', '3', '4', '5']
+    # Tabla
+    col_labels = ['Hora', '1', '2', '3', '4', '5'] # column labels
     table_vals = [[i + 1, '', '', '', '', ''] for i in range(5)]
 
     table = prettytable.PrettyTable(col_labels, hrules=prettytable.ALL)
@@ -29,7 +29,7 @@ def vis(schedule):
 if __name__ == '__main__':
     schedules = []
 
-    # add schedule
+    # Agrergar horario
     schedules.append(Schedule(201, 1201, 11101))
     schedules.append(Schedule(201, 1201, 11101))
     schedules.append(Schedule(202, 1201, 11102))
@@ -55,11 +55,11 @@ if __name__ == '__main__':
     schedules.append(Schedule(206, 1203, 11106))
     schedules.append(Schedule(206, 1203, 11106))
 
-    # optimization
+    # optimizacion
     ga = GeneticOptimize(popsize=50, elite=10, maxiter=500)
     res = ga.evolution(schedules, 3)
 
-    # visualization
+    # visualizacion
     vis_res = []
     for r in res:
         if r.classId == 1203:
