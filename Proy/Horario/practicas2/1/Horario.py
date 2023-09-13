@@ -1,11 +1,12 @@
 import numpy as np
 
 class Agenda:
-    def __init__(self, idCurso, idClase, idDocente):
+    def __init__(self, idCurso, idClase, idDocente, duracion):
         # Inicializa una instancia de Agenda con los identificadores del curso, la clase y el docente
         self.idCurso = idCurso
         self.idClase = idClase
         self.idDocente = idDocente
+        self.duracion = duracion # Duracion de la clase en horas
 
         # Inicializa las variables de horario con valores predeterminados
         self.idSalon = 0

@@ -5,15 +5,20 @@ from alg_genetico import OptimizadorGenetico
 
 def vis(VHorario):
     # funcion para visualizar el horario de clases de forma tabular
-    etiqueta_colum = ['Hora', '1', '2', '3', '4', '5']  # Etiquetas de las columnas (horas y dias)
-    tabla_valores = [[i + 1, '', '', '', '', ''] for i in range(5)]  # Inicializa una matriz de valores en blanco
+    etiqueta_colum = ['Hora', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes']  # Etiquetas de las columnas (horas y dias)
+    horas = ['7 am', '8 am', '9 am', '10 am', '11 am']  # Etiquetas de las filas (horas)
+    
+    tabla_valores = [[hora, "", "", "", "", ""]for hora in horas]  # Matriz de valores para la tabla [horas, lunes, martes, miercoles, jueves, viernes
 
-    tabla = prettytable.PrettyTable(etiqueta_colum, hrules=prettytable.ALL)  # Crea una tabla con las etiquetas y bordes
+    # Crea una tabla con las etiquetas y bordes
+    # etiqueta_colum: etiquetas de las columnas
+    # hrules: estilo de los bordes, prettytable.ALL: todos los bordes
+    tabla = prettytable.PrettyTable(etiqueta_colum, hrules=prettytable.ALL)
 
     for s in VHorario:
         diaSemana = s.diaSemana
         horario = s.horario
-        texto = 'curso: {} \n clase: {} \n salon: {} \n Profesor: {}'.format(s.idCurso, s.idClase, s.idSalon, s.idDocente)
+        texto = 'curso: {} \n clase: {} \n salon: {} \n Profesor: {} \nDuracion: {} Horas'.format(s.idCurso, s.idClase, s.idSalon, s.idDocente, s.duracion)
         tabla_valores[diaSemana - 1][horario] = texto  # Agrega la informacion del horario en la matriz
 
     for row in tabla_valores:
@@ -25,30 +30,30 @@ if __name__ == '__main__':
     horarios = []
 
     # Se crean instancias de Agenda con diferentes combinaciones de identificadores de curso, clase y docente
-    horarios.append(Agenda(201, 1201, 11101))
-    horarios.append(Agenda(201, 1201, 11101))
-    horarios.append(Agenda(202, 1201, 11102))
-    horarios.append(Agenda(202, 1201, 11102))
-    horarios.append(Agenda(203, 1201, 11103))
-    horarios.append(Agenda(203, 1201, 11103))
-    horarios.append(Agenda(206, 1201, 11106))
-    horarios.append(Agenda(206, 1201, 11106))
+    horarios.append(Agenda("Algebra", 1201, "Docente 1", 2))
+    horarios.append(Agenda("Algebra", 1201, "Docente 1", 2))
+    horarios.append(Agenda("A.D.A.", 1201, "Docente 2", 2))
+    horarios.append(Agenda("A.D.A.", 1201, "Docente 2", 2))
+    horarios.append(Agenda("Avanzados", 1201, "Docente 3", 2))
+    horarios.append(Agenda("Avanzados", 1201, "Docente 3", 2))
+    horarios.append(Agenda("M. Discreta", 1201, "Docente 6", 2))
+    horarios.append(Agenda("M. Discreta", 1201, "Docente 6", 2))
 
-    horarios.append(Agenda(202, 1202, 11102))
-    horarios.append(Agenda(202, 1202, 11102))
-    horarios.append(Agenda(204, 1202, 11104))
-    horarios.append(Agenda(204, 1202, 11104))
-    horarios.append(Agenda(206, 1202, 11106))
-    horarios.append(Agenda(206, 1202, 11106))
+    horarios.append(Agenda("A.D.A.", 1202, "Docente 2", 2))
+    horarios.append(Agenda("A.D.A.", 1202, "Docente 2", 1))
+    horarios.append(Agenda("Programacion 1", 1202, "Docente 4", 2))
+    horarios.append(Agenda("Programacion 1", 1202, "Docente 4", 2))
+    horarios.append(Agenda("M. Discreta", 1202, "Docente 6", 2))
+    horarios.append(Agenda("M. Discreta", 1202, "Docente 6", 2))
 
-    horarios.append(Agenda(203, 1203, 11103))
-    horarios.append(Agenda(203, 1203, 11103))
-    horarios.append(Agenda(204, 1203, 11104))
-    horarios.append(Agenda(204, 1203, 11104))
-    horarios.append(Agenda(205, 1203, 11105))
-    horarios.append(Agenda(205, 1203, 11105))
-    horarios.append(Agenda(206, 1203, 11106))
-    horarios.append(Agenda(206, 1203, 11106))
+    horarios.append(Agenda("Avanzados", 1203, "Docente 3", 2))
+    horarios.append(Agenda("Avanzados", 1203, "Docente 3", 1))
+    horarios.append(Agenda("Programacion 1", 1203, "Docente 4", 2))
+    horarios.append(Agenda("Programacion 1", 1203, "Docente 4", 2))
+    horarios.append(Agenda("BioInformatica", 1203, "Docente 5", 2))
+    horarios.append(Agenda("BioInformatica", 1203, "Docente 5", 2))
+    horarios.append(Agenda("M. Discreta", 1203, "Docente 6", 1))
+    horarios.append(Agenda("M. Discreta", 1203, "Docente 6", 2))
     
 
     ga = OptimizadorGenetico(tam_poblacion=50, elite=10, max_iteraciones=500)  # Se crea una instancia del Optimizador Genetico.
