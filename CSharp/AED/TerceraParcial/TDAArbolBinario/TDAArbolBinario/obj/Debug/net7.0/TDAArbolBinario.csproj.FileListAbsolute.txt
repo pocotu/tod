@@ -3,7 +3,6 @@ D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\TerceraParcial\TDAArbolBinario\TDAArbolBin
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\TerceraParcial\TDAArbolBinario\TDAArbolBinario\bin\Debug\net7.0\TDAArbolBinario.runtimeconfig.json
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\TerceraParcial\TDAArbolBinario\TDAArbolBinario\bin\Debug\net7.0\TDAArbolBinario.dll
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\TerceraParcial\TDAArbolBinario\TDAArbolBinario\bin\Debug\net7.0\TDAArbolBinario.pdb
-D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\TerceraParcial\TDAArbolBinario\TDAArbolBinario\obj\Debug\net7.0\TDAArbolBinario.csproj.AssemblyReference.cache
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\TerceraParcial\TDAArbolBinario\TDAArbolBinario\obj\Debug\net7.0\TDAArbolBinario.GeneratedMSBuildEditorConfig.editorconfig
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\TerceraParcial\TDAArbolBinario\TDAArbolBinario\obj\Debug\net7.0\TDAArbolBinario.AssemblyInfoInputs.cache
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\TerceraParcial\TDAArbolBinario\TDAArbolBinario\obj\Debug\net7.0\TDAArbolBinario.AssemblyInfo.cs

@@ -3,7 +3,6 @@ D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\GrafoListaAdyacencia\GrafoLista
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\GrafoListaAdyacencia\GrafoListaAdyacencia\bin\Debug\net7.0\GrafoListaAdyacencia.runtimeconfig.json
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\GrafoListaAdyacencia\GrafoListaAdyacencia\bin\Debug\net7.0\GrafoListaAdyacencia.dll
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\GrafoListaAdyacencia\GrafoListaAdyacencia\bin\Debug\net7.0\GrafoListaAdyacencia.pdb
-D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\GrafoListaAdyacencia\GrafoListaAdyacencia\obj\Debug\net7.0\GrafoListaAdyacencia.csproj.AssemblyReference.cache
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\GrafoListaAdyacencia\GrafoListaAdyacencia\obj\Debug\net7.0\GrafoListaAdyacencia.GeneratedMSBuildEditorConfig.editorconfig
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\GrafoListaAdyacencia\GrafoListaAdyacencia\obj\Debug\net7.0\GrafoListaAdyacencia.AssemblyInfoInputs.cache
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\GrafoListaAdyacencia\GrafoListaAdyacencia\obj\Debug\net7.0\GrafoListaAdyacencia.AssemblyInfo.cs

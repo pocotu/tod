@@ -33,7 +33,6 @@ D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\ListaEnlazada\bin\Debug\net7.0\
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\ListaEnlazada\bin\Debug\net7.0\CLista.runtimeconfig.json
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\ListaEnlazada\bin\Debug\net7.0\CLista.dll
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\ListaEnlazada\bin\Debug\net7.0\CLista.pdb
-D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\ListaEnlazada\obj\Debug\net7.0\CLista.csproj.AssemblyReference.cache
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\ListaEnlazada\obj\Debug\net7.0\CLista.GeneratedMSBuildEditorConfig.editorconfig
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\ListaEnlazada\obj\Debug\net7.0\CLista.AssemblyInfoInputs.cache
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\ListaEnlazada\obj\Debug\net7.0\CLista.AssemblyInfo.cs

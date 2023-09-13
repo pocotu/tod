@@ -18,7 +18,7 @@ def vis(schedule):
     for s in schedule:
         weekDay = s.weekDay
         slot = s.slot
-        text = 'course: {} \n class: {} \n room: {} \n teacher: {}'.format(s.courseId, s.classId, s.roomId, s.teacherId)
+        text = 'curso: {} \n clase: {} \n salon: {} \n Profesor: {}'.format(s.courseId, s.classId, s.roomId, s.teacherId)
         table_vals[weekDay - 1][slot] = text
 
     for row in table_vals:

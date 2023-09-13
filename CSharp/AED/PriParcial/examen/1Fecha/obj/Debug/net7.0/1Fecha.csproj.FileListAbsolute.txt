@@ -28,3 +28,17 @@ D:\Algo\Win\VSC\pocotu\tod\C#\AED\Examen\1Fecha\obj\Debug\net7.0\refint\1Fecha.d
 D:\Algo\Win\VSC\pocotu\tod\C#\AED\Examen\1Fecha\obj\Debug\net7.0\1Fecha.pdb
 D:\Algo\Win\VSC\pocotu\tod\C#\AED\Examen\1Fecha\obj\Debug\net7.0\1Fecha.genruntimeconfig.cache
 D:\Algo\Win\VSC\pocotu\tod\C#\AED\Examen\1Fecha\obj\Debug\net7.0\ref\1Fecha.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\bin\Debug\net7.0\1Fecha.exe
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\bin\Debug\net7.0\1Fecha.deps.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\bin\Debug\net7.0\1Fecha.runtimeconfig.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\bin\Debug\net7.0\1Fecha.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\bin\Debug\net7.0\1Fecha.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\1Fecha.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\1Fecha.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\1Fecha.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\1Fecha.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\1Fecha.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\refint\1Fecha.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\1Fecha.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\1Fecha.genruntimeconfig.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\examen\1Fecha\obj\Debug\net7.0\ref\1Fecha.dll

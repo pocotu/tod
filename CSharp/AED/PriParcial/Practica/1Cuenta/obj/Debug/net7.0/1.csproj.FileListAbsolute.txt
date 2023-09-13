@@ -28,3 +28,17 @@
 /home/wally/Documents/Code/tod/C#/AED/examen/1Cuenta/obj/Debug/net7.0/1.pdb
 /home/wally/Documents/Code/tod/C#/AED/examen/1Cuenta/obj/Debug/net7.0/1.genruntimeconfig.cache
 /home/wally/Documents/Code/tod/C#/AED/examen/1Cuenta/obj/Debug/net7.0/ref/1.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\bin\Debug\net7.0\1.exe
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\bin\Debug\net7.0\1.deps.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\bin\Debug\net7.0\1.runtimeconfig.json
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\bin\Debug\net7.0\1.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\bin\Debug\net7.0\1.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\1.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\1.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\1.csproj.CoreCompileInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\1.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\refint\1.dll
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\1.pdb
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\1.genruntimeconfig.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Practica\1Cuenta\obj\Debug\net7.0\ref\1.dll

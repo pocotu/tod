@@ -3,7 +3,6 @@ D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Practica\Pila\bin\Debug\net7.0\
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Practica\Pila\bin\Debug\net7.0\Pila.runtimeconfig.json
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Practica\Pila\bin\Debug\net7.0\Pila.dll
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Practica\Pila\bin\Debug\net7.0\Pila.pdb
-D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Practica\Pila\obj\Debug\net7.0\Pila.csproj.AssemblyReference.cache
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Practica\Pila\obj\Debug\net7.0\Pila.GeneratedMSBuildEditorConfig.editorconfig
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Practica\Pila\obj\Debug\net7.0\Pila.AssemblyInfoInputs.cache
 D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\SegParcial\Practica\Pila\obj\Debug\net7.0\Pila.AssemblyInfo.cs

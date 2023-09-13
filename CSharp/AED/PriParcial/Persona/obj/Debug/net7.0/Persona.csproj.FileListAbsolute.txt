@@ -1,0 +1,4 @@
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Persona\obj\Debug\net7.0\Persona.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Persona\obj\Debug\net7.0\Persona.AssemblyInfoInputs.cache
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Persona\obj\Debug\net7.0\Persona.AssemblyInfo.cs
+D:\Algo\Win\VSC\pocotu\tod\CSharp\AED\PriParcial\Persona\obj\Debug\net7.0\Persona.csproj.CoreCompileInputs.cache
