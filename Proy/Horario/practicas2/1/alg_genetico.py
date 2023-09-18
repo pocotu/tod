@@ -18,7 +18,7 @@ class OptimizadorGenetico:
 
         for i in range(self.tam_poblacion):
             entidad = []
-
+            print('Generando horario aleatorio: {}'.format(i + 1)) # Imprime el numero de horario aleatorio generado
             # Genera horarios aleatorios y los agrega a la entidad
             for s in horarios:
                 s.Inicializador_aleatorio(salonRango)
@@ -26,7 +26,7 @@ class OptimizadorGenetico:
 
             self.poblacion.append(entidad)
 
-    def Mutar(self, poblacionElite, salonRango):
+    def Mutar(self, poblacionElite, salonRango, i=0):
         # Aplica una mutacion en uno de los horarios de la población elite
 
         e = np.random.randint(0, self.elite, 1)[0]  # Elige un horario elite al azar
@@ -45,6 +45,7 @@ class OptimizadorGenetico:
             if pos == 2:
                 p.horario = self.AgregarResta(p.horario, operation, 5)  # Mutacion en el horario
 
+        print('Mutacion en el horario: {}'.format(e + 1))  # Imprime el numero de horario mutado
         return ep
 
     def AgregarResta(self, valor, op, valorRango):
@@ -81,6 +82,7 @@ class OptimizadorGenetico:
             if pos == 1:
                 p1.idSalon = p2.idSalon  # Cruce en el id del salon
 
+        print('Cruce entre los horarios: {} y {}'.format(e1 + 1, e2 + 1))  # Imprime los numeros de horarios cruzados
         return ep1
 
     def Evolucion(self, horarios, salonRango):
@@ -93,8 +95,9 @@ class OptimizadorGenetico:
 
         for i in range(self.max_iteraciones):
             indiceElite, mejorPunto = CostoHorario(self.poblacion, self.elite)  # Evalua y selecciona a la elite
-
-            print('Iteracion: {} | conflicto: {}'.format(i + 1, mejorPunto))
+            print('---------------------------------------------------------------')
+            print('Iteracion: {} | conflicto: {} | Tamaño de la población elite: {}'.format(i + 1, mejorPunto, len(indiceElite)))
+            print('---------------------------------------------------------------')
 
             if mejorPunto == 0:
                 mejorHorario = self.poblacion[indiceElite[0]]

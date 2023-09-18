@@ -1,12 +1,11 @@
 import numpy as np
 
 class Agenda:
-    def __init__(self, idCurso, idClase, idDocente, duracion):
+    def __init__(self, idCurso, idClase, idDocente):
         # Inicializa una instancia de Agenda con los identificadores del curso, la clase y el docente
         self.idCurso = idCurso
-        self.idClase = idClase
+        self.idClase = idClase # 
         self.idDocente = idDocente
-        self.duracion = duracion # Duracion de la clase en horas
 
         # Inicializa las variables de horario con valores predeterminados
         self.idSalon = 0
@@ -15,7 +14,7 @@ class Agenda:
 
     def Inicializador_aleatorio(self, salonRango):
         # Inicializa aleatoriamente las variables de horario dentro de ciertos rangos
-        self.idSalon = np.random.randint(1, salonRango + 1, 1)[0]  # Genera un numero aleatorio entre 1 y salonRango
+        self.idSalon = np.random.choice([101, 102, 103, 104, 105, 106, 107, 108, 109, 110], 1)[0]  # Genera un numero aleatorio entre 101 y 110 (representando salones)
         self.diaSemana = np.random.randint(1, 6, 1)[0]  # Genera un numero aleatorio entre 1 y 5 (representando dias de la semana)
         self.horario = np.random.randint(1, 6, 1)[0]  # Genera un numero aleatorio entre 1 y 5 (representando horarios)
 
