@@ -17,16 +17,10 @@ class Agenda:
 #        self.horario = np.random.choice([1, 2, 3, 4, 5], 1)[0]  # Genera un numero aleatorio entre 1 y 6 (representando horarios)
 
 def CostoHorario(poblacion, elite):
-    if not poblacion:
-        return [], 0 # Si la poblacion esta vacia, devuelve una lista vacia y un costo de 0
-
+    # Calcula el costo (conflicto) de horario para cada horario en la poblacion
+    conflictos = []
     n = len(poblacion[0])  # Obtiene el numero de horarios en la poblacion (asume que todos tienen la misma cantidad)
 
-    if not all(len(p) == n for p in poblacion):
-        # Si no todos los horarios tienen la misma cantidad de clases, lanza un error
-        raise ValueError('Todos los horarios deben tener la misma cantidad de clases')
-    
-    conflictos = []  # Inicializa la lista de conflictos para cada horario
     for p in poblacion:
         conflicto = 0  # Inicializa el contador de conflictos para este horario
 

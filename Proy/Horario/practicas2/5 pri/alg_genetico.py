@@ -11,7 +11,24 @@ class OptimizadorGenetico:
         self.elite = elite  # Numero de horarios elite que se mantendran sin cambios en cada generacion
         self.max_iteraciones = max_iteraciones  # Numero maximo de iteraciones del algoritmo genetico
 
+    def Iniciar_poblacion(self, horarios, salonRango):
+        # Crea una poblacion inicial de horarios candidatos de manera aleatoria
+
+        self.poblacion = []
+
+        for i in range(self.tam_poblacion):
+            entidad = []
+            print('Generando horario aleatorio: {}'.format(i + 1)) # Imprime el numero de horario aleatorio generado
+            # Genera horarios aleatorios y los agrega a la entidad
+            for s in horarios:
+#                s.Inicializador_aleatorio(salonRango)
+                entidad.append(copy.deepcopy(s))
+        
+            self.poblacion.append(entidad)
+
     def Mutar(self, poblacionElite, salonRango, i=0):
+        # Aplica una mutacion en uno de los horarios de la población elite
+
         e = np.random.randint(0, self.elite, 1)[0]  # Elige un horario elite al azar
         pos = np.random.randint(0, 2, 1)[0]  # Decide que aspecto del horario se va a mutar (0, 1 o 2)
 
@@ -68,24 +85,25 @@ class OptimizadorGenetico:
         print('Cruce entre los horarios: {} y {}'.format(e1 + 1, e2 + 1))  # Imprime los numeros de horarios cruzados
         return ep1
 
-    def Evolucion(self, horarios, poblacion_manual, salonRango):
+    def Evolucion(self, horarios, salonRango):
+        # Realiza la evolucion de la poblacion a lo largo de varias iteraciones
+
         mejorPunto = 0
         mejorHorario = None
 
-        poblacion = copy.deepcopy(poblacion_manual)
-#        self.Iniciar_poblacion(horarios, salonRango)  # Inicializa la poblacion aleatoriamente
+        self.Iniciar_poblacion(horarios, salonRango)  # Inicializa la poblacion aleatoriamente
 
         for i in range(self.max_iteraciones):
-            indiceElite, mejorPunto = CostoHorario(poblacion, self.elite)  # Evalua y selecciona a la elite
+            indiceElite, mejorPunto = CostoHorario(self.poblacion, self.elite)  # Evalua y selecciona a la elite
             print('---------------------------------------------------------------')
             print('Iteracion: {} | conflicto: {} | Tamaño de la población elite: {}'.format(i + 1, mejorPunto, len(indiceElite)))
             print('---------------------------------------------------------------')
 
             if mejorPunto == 0:
-                mejorHorario = poblacion[indiceElite[0]]
+                mejorHorario = self.poblacion[indiceElite[0]]
                 break
 
-            nuevaPoblacion = [poblacion[indice] for indice in indiceElite]
+            nuevaPoblacion = [self.poblacion[indice] for indice in indiceElite]
 
             while len(nuevaPoblacion) < self.tam_poblacion:
                 if np.random.rand() < self.prob_mutacion:
@@ -95,6 +113,6 @@ class OptimizadorGenetico:
 
                 nuevaPoblacion.append(nuevaP)
 
-            poblacion = nuevaPoblacion  # Actualiza la poblacion
+            self.poblacion = nuevaPoblacion  # Actualiza la poblacion
 
         return mejorHorario
