@@ -18,9 +18,10 @@
     </style>
 </head>
 <body>
+    <label for="csvFile">Selecciona un archivo CSV:</label>
     <input type="file" id="csvFile" accept=".csv" onchange="handleFile(this.files)">
     <div id="schedule"></div>
-    
+        
     <script>
         /*Ejecuta cuando se selecciona un archivo CSV */
         function handleFile(files) {
