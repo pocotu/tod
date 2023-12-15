@@ -1,6 +1,6 @@
 import prettytable
 
-from Horario import Agenda
+from horario import Agenda
 from alg_genetico import OptimizadorGenetico
 
 def vis(VHorario):
@@ -17,20 +17,15 @@ def vis(VHorario):
         ["12 pm", "", "", "", "", ""],
     ]
 
-    # Crea una tabla con las etiquetas y bordes
-    # etiqueta_colum: etiquetas de las columnas
-    # hrules: estilo de los bordes, prettytable.ALL: todos los bordes
     tabla = prettytable.PrettyTable(etiqueta_colum, hrules=prettytable.ALL)
 
     for s in VHorario:
-        # Se obtienen los valores de la clase
-        # Se crea un string con la información de la clase
-        # Se agrega el string a la matriz en la posición correspondiente
         diaSemana = s.diaSemana
         horario = s.horario
         texto = 'Curso: {} \n Clase: {} \n Salon: {} \n Profesor: {}'.format(s.idCurso, s.idClase, s.idSalon, s.idDocente, s.diaSemana, s.horario)
         tabla_valores[diaSemana - 1][horario] = texto  # Agrega la informacion del horario en la matriz
 
+        # Si 
         if horario == 5:
             tabla_valores[5][diaSemana] = texto  # Agrega la información de la clase en la fila de "12 pm"
 
@@ -40,67 +35,36 @@ def vis(VHorario):
     print(tabla)  # Imprime la tabla visual del horario
 
 if __name__ == '__main__':
-#    horarios = []
-#
-#    ## Se crean instancias de Agenda con diferentes combinaciones de identificadores de curso, clase y docente
-#    ## se crea una instancia de Agenda por cada clase que se desea programar con los siguientes parametros:
-#    horarios.append(Agenda("Algebra",           "IF061AIN", "Docente 1", 101, 1, 1))
-#    horarios.append(Agenda("Algebra",           "IF061AIN", "Docente 1", 101, 1, 1))
-#    horarios.append(Agenda("A.D.A.",            "IF061AIN", "Docente 2", 102, 1, 2))
-#    horarios.append(Agenda("A.D.A.",            "IF061AIN", "Docente 2", 102, 1, 2))
-#    horarios.append(Agenda("Avanzados",         "IF061AIN", "Docente 3", 103, 1, 3))
-#    horarios.append(Agenda("Avanzados",         "IF061AIN", "Docente 3", 103, 1, 3))
-#    horarios.append(Agenda("M. Discreta",       "IF061AIN", "Docente 6", 106, 1, 5)) 
-#    horarios.append(Agenda("M. Discreta",       "IF061AIN", "Docente 6", 106, 1, 5))
-#
-#    horarios.append(Agenda("A.D.A.",            "IF484AIN", "Docente 2", 102, 2, 2))
-#    horarios.append(Agenda("A.D.A.",            "IF484AIN", "Docente 2", 102, 2, 2))
-#    horarios.append(Agenda("Programacion 1",    "IF484AIN", "Docente 4", 104, 2, 4))
-#    horarios.append(Agenda("Programacion 1",    "IF484AIN", "Docente 4", 104, 2, 4))
-#    horarios.append(Agenda("M. Discreta",       "IF484AIN", "Docente 6", 106, 2, 6))
-#    horarios.append(Agenda("M. Discreta",       "IF484AIN", "Docente 6", 106, 2, 6))
-#
-#    horarios.append(Agenda("Avanzados",         "IF554AIN", "Docente 3", 103, 3, 3))
-#    horarios.append(Agenda("Avanzados",         "IF554AIN", "Docente 3", 103, 3, 3))
-#    horarios.append(Agenda("Programacion 1",    "IF554AIN", "Docente 4", 104, 3, 4))
-#    horarios.append(Agenda("Programacion 1",    "IF554AIN", "Docente 4", 104, 3, 4))
-#    horarios.append(Agenda("BioInformatica",    "IF554AIN", "Docente 5", 105, 3, 5))
-#    horarios.append(Agenda("BioInformatica",    "IF554AIN", "Docente 5", 105, 3, 5))
-#    horarios.append(Agenda("M. Discreta",       "IF554AIN", "Docente 6", 106, 3, 6))
-#    horarios.append(Agenda("M. Discreta",       "IF554AIN", "Docente 6", 106, 3, 6))
+    horarios = []
 
-    poblacion_manual = [
-    [Agenda("Algebra",           "IF061AIN", "Docente 1", 101, 1, 1)],
-    [Agenda("Algebra",           "IF061AIN", "Docente 1", 101, 1, 1)],
-    [Agenda("A.D.A.",            "IF061AIN", "Docente 2", 102, 1, 2)],
-    [Agenda("A.D.A.",            "IF061AIN", "Docente 2", 102, 1, 2)],
-    [Agenda("Avanzados",         "IF061AIN", "Docente 3", 103, 1, 3)],
-    [Agenda("Avanzados",         "IF061AIN", "Docente 3", 103, 1, 3)],
-    [Agenda("M. Discreta",       "IF061AIN", "Docente 6", 106, 1, 5)], 
-    [Agenda("M. Discreta",       "IF061AIN", "Docente 6", 106, 1, 5)],
+    horarios.append(Agenda("Algebra",           "IF061AIN", "Docente 1", 101, 1, 1))
+    horarios.append(Agenda("Algebra",           "IF061AIN", "Docente 1", 101, 1, 1))
+    horarios.append(Agenda("A.D.A.",            "IF061AIN", "Docente 2", 102, 1, 2))
+    horarios.append(Agenda("A.D.A.",            "IF061AIN", "Docente 2", 102, 1, 2))
+    horarios.append(Agenda("Avanzados",         "IF061AIN", "Docente 3", 103, 1, 3))
+    horarios.append(Agenda("Avanzados",         "IF061AIN", "Docente 3", 103, 1, 3))
+    horarios.append(Agenda("M. Discreta",       "IF061AIN", "Docente 6", 106, 1, 5)) 
+    horarios.append(Agenda("M. Discreta",       "IF061AIN", "Docente 6", 106, 1, 5))
 
-    [Agenda("A.D.A.",            "IF484AIN", "Docente 2", 102, 2, 2)],
-    [Agenda("A.D.A.",            "IF484AIN", "Docente 2", 102, 2, 2)],
-    [Agenda("Programacion 1",    "IF484AIN", "Docente 4", 104, 2, 4)],
-    [Agenda("Programacion 1",    "IF484AIN", "Docente 4", 104, 2, 4)],
-    [Agenda("M. Discreta",       "IF484AIN", "Docente 6", 106, 2, 6)],
-    [Agenda("M. Discreta",       "IF484AIN", "Docente 6", 106, 2, 6)],
+    horarios.append(Agenda("A.D.A.",            "IF484AIN", "Docente 2", 102, 2, 2))
+    horarios.append(Agenda("A.D.A.",            "IF484AIN", "Docente 2", 102, 2, 2))
+    horarios.append(Agenda("Programacion 1",    "IF484AIN", "Docente 4", 104, 2, 4))
+    horarios.append(Agenda("Programacion 1",    "IF484AIN", "Docente 4", 104, 2, 4))
+    horarios.append(Agenda("M. Discreta",       "IF484AIN", "Docente 6", 106, 2, 6))
+    horarios.append(Agenda("M. Discreta",       "IF484AIN", "Docente 6", 106, 2, 6))
 
-    [Agenda("Avanzados",         "IF554AIN", "Docente 3", 103, 3, 3)],
-    [Agenda("Avanzados",         "IF554AIN", "Docente 3", 103, 3, 3)],
-    [Agenda("Programacion 1",    "IF554AIN", "Docente 4", 104, 3, 4)],
-    [Agenda("Programacion 1",    "IF554AIN", "Docente 4", 104, 3, 4)],
-    [Agenda("BioInformatica",    "IF554AIN", "Docente 5", 105, 3, 5)],
-    [Agenda("BioInformatica",    "IF554AIN", "Docente 5", 105, 3, 5)],
-    [Agenda("M. Discreta",       "IF554AIN", "Docente 6", 106, 3, 6)],
-    [Agenda("M. Discreta",       "IF554AIN", "Docente 6", 106, 3, 6)]
-    ]
-
-    #horarios = poblacion_manual
+    horarios.append(Agenda("Avanzados",         "IF554AIN", "Docente 3", 103, 3, 3))
+    horarios.append(Agenda("Avanzados",         "IF554AIN", "Docente 3", 103, 3, 3))
+    horarios.append(Agenda("Programacion 1",    "IF554AIN", "Docente 4", 104, 3, 4))
+    horarios.append(Agenda("Programacion 1",    "IF554AIN", "Docente 4", 104, 3, 4))
+    horarios.append(Agenda("BioInformatica",    "IF554AIN", "Docente 5", 105, 3, 5))
+    horarios.append(Agenda("BioInformatica",    "IF554AIN", "Docente 5", 105, 3, 5))
+    horarios.append(Agenda("M. Discreta",       "IF554AIN", "Docente 6", 106, 3, 6))
+    horarios.append(Agenda("M. Discreta",       "IF554AIN", "Docente 6", 106, 3, 6))
 
     ga = OptimizadorGenetico(tam_poblacion=50, elite=10, max_iteraciones=500)  # Se crea una instancia del Optimizador Genetico.
 
-    resultado = ga.Evolucion( poblacion_manual, 3, salonRango=3)  # Se ejecuta el algoritmo genetico para encontrar un horario optimo.
+    resultado = ga.Evolucion(horarios, 3)  # Se ejecuta el algoritmo genetico para encontrar un horario optimo.
 
     horario_visualizado = []
     for r in resultado:

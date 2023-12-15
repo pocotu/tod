@@ -1,6 +1,6 @@
 import prettytable 
 
-from Horario import Agenda
+from horario import Agenda
 from alg_genetico import OptimizadorGenetico
 
 def vis(VHorario):

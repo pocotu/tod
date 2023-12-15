@@ -1,7 +1,7 @@
 import copy
 import numpy as np
 
-from Horario import CostoHorario
+from horario import CostoHorario
 
 class OptimizadorGenetico:
     def __init__(self, tam_poblacion=30, prob_mutacion=0.3, elite=5, max_iteraciones=100):

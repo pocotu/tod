@@ -76,7 +76,7 @@ if __name__ == '__main__':
     horarios.append(Agenda("M. Discreta",       "IF554AIN", "Docente 6", 106, 3, 6))
     horarios.append(Agenda("M. Discreta",       "IF554AIN", "Docente 6", 106, 3, 6))
 
-    ga = OptimizadorGenetico(tam_poblacion=50, elite=10, max_iteraciones=500)  # Se crea una instancia del Optimizador Genetico.
+    ga = OptimizadorGenetico(tam_poblacion=50, elite=10, max_iteraciones=2000)  # Se crea una instancia del Optimizador Genetico.
 
     resultado = ga.Evolucion(horarios, 3)  # Se ejecuta el algoritmo genetico para encontrar un horario optimo.
 
