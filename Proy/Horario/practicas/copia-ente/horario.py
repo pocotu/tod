@@ -16,7 +16,6 @@ class Agenda:
 
     def Inicializador_aleatorio(self, salonRango):
         # Método que inicializa la agenda con horarios aleatorios dentro de un rango de salones
-        # :param salonRango: Rango de salones disponibles
         
         self.idSalon = np.random.randint(1, salonRango + 1, 1)[0]
         self.diaSemana = np.random.randint(1, 6, 1)[0]
