@@ -21,7 +21,7 @@ class Agenda:
         self.diaSemana = np.random.randint(1, 6, 1)[0]
         self.horario = np.random.randint(1, 6, 1)[0]
     
-# Esta función calcula el costo de horario para una población de horarios.
+# Esta funcion calcula el costo de horario para una población de horarios.
 # Recibe dos parámetros: poblacion (una lista de horarios) y elite (el número de mejores horarios a seleccionar).
 # La función recorre cada horario de la población y verifica si hay conflictos de horario entre las clases.
 # Los conflictos se cuentan y se almacenan en una lista.
