@@ -4,34 +4,36 @@
 class Solution {
 public:
     int search(std::vector<int>& nums, int target) {
-        int left = 0;
-        int right = nums.size() - 1;
+        int low = 0;
+        int high = nums.size() - 1;
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
 
             if (nums[mid] == target) {
                 return mid;
             } else if (nums[mid] < target) {
-                left = mid + 1;
+                low = mid + 1;
             } else {
-                right = mid - 1;
+                high = mid - 1;
             }
         }
 
         return -1;
     }
 };
-
 int main() {
-    // Aquí puedes probar tu función search.
-    std::vector<int> nums = {-1, 0, 3, 5, 9, 12};
-    int target = 9;
+    std::vector<int> nums1 = {1, 3, 5, 7, 9};
+    int target1 = 5;
+    Solution solution1;
+    int result1 = solution1.search(nums1, target1);
+    std::cout << "Result 1: " << result1 << std::endl;
 
-    Solution solution;
-    int result = solution.search(nums, target);
-
-    std::cout << "Resultado: " << result << std::endl;
+    std::vector<int> nums2 = {2, 4, 6, 8, 10};
+    int target2 = 7;
+    Solution solution2;
+    int result2 = solution2.search(nums2, target2);
+    std::cout << "Result 2: " << result2 << std::endl;
 
     return 0;
 }
