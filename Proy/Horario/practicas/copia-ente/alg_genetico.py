@@ -22,4 +22,28 @@ class optimizadorGenetico:
 
             self.poblacion.append(entidad)
     
-    def 
+    def AgregarResta(self, valor, op, valorRango):
+        ##
+
+    def Mutar(self, poblacion, salonRango):
+        e = np.random.randint(0, self.elite, 1)[0]
+        pos = np.random.randint(0, 2, 1)[0]
+        ep = copy.deepcopy(poblacion[e])
+
+        for p in ep:
+            pos = np.random.randint(0, 3, 1)[0]
+            operation = np.random.rand()
+
+            if pos == 0:
+                p.idSalon = self.AgregarResta(p.idSalon, operation, salonRango)
+            if pos == 1:
+                p.diaSemana = self.AgregarResta(p.diaSemana, operation, 5)
+            if pos == 2:
+                p.horario = self.AgregarResta(p.horario, operation, 3)
+        
+        return ep
+    
+    def Cruzar(self, poblacionElite):
+        ##
+    
+    def Evolucion(self, horarios. salonRango):
