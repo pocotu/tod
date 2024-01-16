@@ -40,12 +40,14 @@ class Solution(object):
             if char in brackets:
                 stack.append(char)
             else:
-                if not stack or brackets[stack.pop] != char:
+                if not stack or brackets[stack.pop()] != char:
                     return False
 
         return not stack
-## fin ##
+## Para LeetCode (fin) ##
 
-"()"
-"()[]{}"
-"(]"
+sol = Solution()
+
+print(sol.isValid("()"))
+print(sol.isValid("()[]{}"))
+print(sol.isValid("(]"))
