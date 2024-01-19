@@ -23,7 +23,18 @@ class optimizadorGenetico:
             self.poblacion.append(entidad)
     
     def AgregarResta(self, valor, op, valorRango):
-        ##
+        if op > 0.5:
+            if valor < valorRango:
+                valor += 1
+            else:
+                valor -= 1
+        else:
+            if valor - 1 > 0:
+                valor -= 1
+            else:
+                valor += 1
+        
+        return valor
 
     def Mutar(self, poblacion, salonRango):
         e = np.random.randint(0, self.elite, 1)[0]
@@ -44,6 +55,7 @@ class optimizadorGenetico:
         return ep
     
     def Cruzar(self, poblacionElite):
-        ##
-    
+        e1 = np.random.randint(0, self.elite, 1)[0]
+
+
     def Evolucion(self, horarios. salonRango):
