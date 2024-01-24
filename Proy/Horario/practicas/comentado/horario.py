@@ -2,31 +2,26 @@ import numpy as np
 
 class Agenda:
     def __init__(self, idCurso, idClase, idDocente):
-        # Inicializa una instancia de Agenda con los identificadores del curso, la clase y el docente
         self.idCurso = idCurso
         self.idClase = idClase
         self.idDocente = idDocente
 
-        # Inicializa las variables de horario con valores predeterminados
         self.idSalon = 0
         self.diaSemana = 0
         self.horario = 0
 
     def Inicializador_aleatorio(self, salonRango):
-        # Inicializa aleatoriamente las variables de horario dentro de ciertos rangos
-        self.idSalon = np.random.randint(1, salonRango + 1, 1)[0]  # Genera un numero aleatorio entre 1 y salonRango
-        self.diaSemana = np.random.randint(1, 6, 1)[0]  # Genera un numero aleatorio entre 1 y 5 (representando dias de la semana)
-        self.horario = np.random.randint(1, 6, 1)[0]  # Genera un numero aleatorio entre 1 y 5 (representando horarios)
+        self.idSalon = np.random.randint(1, salonRango + 1, 1)[0] 
+        self.diaSemana = np.random.randint(1, 6, 1)[0] 
+        self.horario = np.random.randint(1, 6, 1)[0]  
 
 def CostoHorario(poblacion, elite):
-    # Calcula el costo (conflicto) de horario para cada horario en la poblacion
     conflictos = []
-    n = len(poblacion[0])  # Obtiene el numero de horarios en la poblacion (asume que todos tienen la misma cantidad)
+    n = len(poblacion[0])
 
     for p in poblacion:
-        conflicto = 0  # Inicializa el contador de conflictos para este horario
+        conflicto = 0
 
-        # Compara cada par de horarios para verificar si hay conflictos
         for i in range(0, n - 1):
             for j in range(i + 1, n):
                 # Compara el id del salon, el dia de la semana y el horario

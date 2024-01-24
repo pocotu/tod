@@ -55,7 +55,49 @@ class optimizadorGenetico:
         return ep
     
     def Cruzar(self, poblacionElite):
-        e1 = np.random.randint(0, self.elite, 1)[0]
+        e1 = np.random.randint(0, self.elite, 1)[0] 
+        e2 = np.random.randint(0, self.elite, 1)[0] 
+
+        pos = np.random.randint(0, 2, 1)[0]
+
+        ep1 = copy.deepcopy(poblacionElite[e1])
+        ep2 = poblacionElite[e2]
+
+        for p1, p2 in zip(ep1, ep2):
+            if pos == 0:
+                p1.diaSemana = p2.diaSemana
+                p1.horario = p2.horario
+            if pos == 1:
+                p1.idSalon = p2.idSalon
+
+        return ep1
 
 
-    def Evolucion(self, horarios. salonRango):
+    def Evolucion(self, horarios, salonRango):
+        mejorPunto = 0
+        mejorHorario = None
+
+        self.Iniciar_poblacion(horarios, salonRango)
+
+        for i in range(self.max_iteraciones):
+            indiceElite, mejorPunto = CostoHorario(self.poblacion, self.elite)
+
+            print('Iteracion: {} | conflicto: {}'.format(i + 1, mejorPunto))
+
+            if mejorPunto == 0:
+                mejorHorario = self.poblacion[indiceElite[0]]
+                break
+
+            nuevaPoblacion = [self.poblacion[indice] for indice in indiceElite]
+
+            while len(nuevaPoblacion) < self.tam_poblacion:
+                if np.random.rand() < self.prob_mutacion:
+                    nuevaP = self.Mutar(nuevaPoblacion, salonRango)
+                else:
+                    nuevaP = self.Cruzar(nuevaPoblacion)
+
+                nuevaPoblacion.append(nuevaP)
+
+            self.poblacion = nuevaPoblacion
+        
+        return mejorHorario

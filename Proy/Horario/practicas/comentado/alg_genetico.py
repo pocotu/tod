@@ -20,7 +20,7 @@ class OptimizadorGenetico:
             entidad = []
 
             # Genera horarios aleatorios y los agrega a la entidad
-            for s in horarios:
+            for s in horarios:        
                 s.Inicializador_aleatorio(salonRango)
                 entidad.append(copy.deepcopy(s))
 
